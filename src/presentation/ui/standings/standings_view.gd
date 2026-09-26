@@ -4,6 +4,8 @@ extends Control
 const DataTableClass = preload("res://src/presentation/ui/common/data_table.gd")
 const EventBusClass = preload("res://src/systems/event_bus/event_bus.gd")
 
+signal closed()
+
 var game_state: RefCounted
 var competition_id: String = ""
 
@@ -42,6 +44,14 @@ func _build_ui_structure() -> void:
 	_leader_label.add_theme_color_override("font_color", Color.GOLD)
 	top_hbox.add_child(_leader_label)
 	
+	var close_btn = Button.new()
+	close_btn.text = " ✖ Fechar "
+	close_btn.pressed.connect(func():
+		visible = false
+		closed.emit()
+	)
+	top_hbox.add_child(close_btn)
+
 	vbox.add_child(HSeparator.new())
 	
 	_data_table = DataTableClass.new()

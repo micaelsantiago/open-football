@@ -6,6 +6,7 @@ const EventBusClass = preload("res://src/systems/event_bus/event_bus.gd")
 const AudioServiceClass = preload("res://src/systems/audio/audio_service.gd")
 
 signal upgrade_started()
+signal closed()
 
 var game_state: RefCounted
 var stadium_id: String = ""
@@ -26,6 +27,14 @@ func _build_ui_structure() -> void:
 	_modal = ActionModalClass.new()
 	add_child(_modal)
 	_modal.confirmed.connect(_on_confirm_upgrade)
+	_modal.cancelled.connect(func():
+		visible = false
+		closed.emit()
+	)
+	_modal.closed.connect(func():
+		visible = false
+		closed.emit()
+	)
 	
 	var content = _modal.get_content_container()
 	
@@ -42,6 +51,7 @@ func _build_ui_structure() -> void:
 
 func open_for_stadium(p_game_state: RefCounted, p_stadium_id: String = "") -> void:
 	_build_ui_structure()
+	visible = true
 	game_state = p_game_state
 	
 	if not p_stadium_id.is_empty():

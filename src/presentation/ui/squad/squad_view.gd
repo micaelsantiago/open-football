@@ -5,6 +5,7 @@ const PlayerCardClass = preload("res://src/presentation/ui/common/player_card.gd
 const DataTableClass = preload("res://src/presentation/ui/common/data_table.gd")
 
 signal tactics_saved()
+signal closed()
 
 var game_state: RefCounted
 var club_id: String = ""
@@ -55,6 +56,14 @@ func _build_ui_structure() -> void:
 	_save_btn.pressed.connect(_on_save_pressed)
 	top_bar.add_child(_save_btn)
 	
+	var close_btn = Button.new()
+	close_btn.text = " ✖ Voltar "
+	close_btn.pressed.connect(func():
+		visible = false
+		closed.emit()
+	)
+	top_bar.add_child(close_btn)
+
 	main_vbox.add_child(HSeparator.new())
 	
 	# Split columns: Titulares (11) e Reservas

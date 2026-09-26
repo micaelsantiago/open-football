@@ -81,6 +81,7 @@ func _build_ui_structure() -> void:
 	vbox.add_child(_save_info_label)
 
 func refresh_saves() -> void:
+	_build_ui_structure()
 	var saves = SaveManagerClass.list_saves()
 	if saves.is_empty():
 		_continue_btn.disabled = true

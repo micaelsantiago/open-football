@@ -2,6 +2,7 @@ class_name FinancesView
 extends Control
 
 signal finances_saved()
+signal closed()
 
 var game_state: RefCounted
 var club_id: String = ""
@@ -31,10 +32,22 @@ func _build_ui_structure() -> void:
 	var vbox = VBoxContainer.new()
 	main_panel.add_child(vbox)
 	
+	var top_bar = HBoxContainer.new()
+	vbox.add_child(top_bar)
+	
 	var title = Label.new()
 	title.text = "Balanço Financeiro e Preço do Ingresso"
+	title.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	title.add_theme_font_size_override("font_size", 18)
-	vbox.add_child(title)
+	top_bar.add_child(title)
+	
+	var close_btn = Button.new()
+	close_btn.text = " ✖ Voltar "
+	close_btn.pressed.connect(func():
+		visible = false
+		closed.emit()
+	)
+	top_bar.add_child(close_btn)
 	
 	vbox.add_child(HSeparator.new())
 	
