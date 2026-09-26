@@ -7,7 +7,6 @@
 
 # Mono / C# ignores (if added in the future)
 .mono/
-data_*/
 mono_crash.*.json
 
 # OS files
