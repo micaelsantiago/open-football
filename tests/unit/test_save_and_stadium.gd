@@ -20,6 +20,7 @@ static func run_all_tests() -> bool:
 	all_passed = test_audio_service_procedural_fx() and all_passed
 	all_passed = test_main_menu_interactions() and all_passed
 	all_passed = test_app_controller_orchestration() and all_passed
+	all_passed = test_camera_zoom_scope_validation() and all_passed
 	
 	if all_passed:
 		print("=== [TEST SUITE] TestSaveAndStadium: TODOS OS TESTES PASSARAM! ===\n")
@@ -165,3 +166,52 @@ static func test_app_controller_orchestration() -> bool:
 	app.queue_free()
 	print("[PASS] test_app_controller_orchestration: Loop completo Menu -> Wizard -> Mundo -> Partida -> Avanco validado com maestria")
 	return true
+
+static func test_camera_zoom_scope_validation() -> bool:
+	var app = AppControllerClass.new()
+	app._build_ui()
+	app.show_main_menu()
+	
+	# 1. Na tela de abertura (MainMenu):
+	assert(not app.world_view.visible, "WorldView deve estar invisivel no menu principal")
+	assert(not app.is_world_active(), "is_world_active deve ser falso na tela de abertura")
+	assert(not app.world_view.camera.controls_enabled, "controls_enabled da camera deve ser falso na tela de abertura")
+	
+	var initial_zoom = app.world_view.camera._target_zoom
+	var zoom_event = InputEventMouseButton.new()
+	zoom_event.button_index = MOUSE_BUTTON_WHEEL_UP
+	zoom_event.pressed = true
+	app.world_view.camera._unhandled_input(zoom_event)
+	
+	assert(is_equal_approx(app.world_view.camera._target_zoom, initial_zoom), "Zoom NAO deve sofrer alteracao na tela de abertura")
+	
+	# 2. Ao acessar a tela da sede (estadio e campo):
+	app._on_new_career_requested()
+	app._on_career_started("club-aurora-fc")
+	
+	assert(app.world_view.visible, "WorldView deve estar visivel apos iniciar carreira")
+	assert(app.is_world_active(), "is_world_active deve ser verdadeiro ao acessar o mapa do estadio")
+	assert(app.world_view.camera.controls_enabled, "controls_enabled da camera deve ser verdadeiro no mapa do estadio")
+	
+	# Dispara zoom in na camera agora que a tela do estadio esta ativa
+	app.world_view.camera._unhandled_input(zoom_event)
+	assert(app.world_view.camera._target_zoom > initial_zoom, "Zoom DEVE funcionar ao acessar a tela do estadio e campo")
+	
+	# 3. Ao abrir uma tela modal (ex: Elenco/Taticas):
+	var active_zoom = app.world_view.camera._target_zoom
+	app._on_squad_button_pressed()
+	assert(not app.is_world_active(), "is_world_active deve ser falso com tela de elenco aberta")
+	assert(not app.world_view.camera.controls_enabled, "Controles da camera devem ser suspensos com modal aberta")
+	
+	app.world_view.camera._unhandled_input(zoom_event)
+	assert(is_equal_approx(app.world_view.camera._target_zoom, active_zoom), "Zoom NAO deve sofrer alteracao enquanto modal estiver aberta")
+	
+	# Ao fechar a modal do elenco:
+	app.squad_view.closed.emit()
+	assert(app.is_world_active(), "is_world_active deve voltar a ser verdadeiro ao fechar modal")
+	assert(app.world_view.camera.controls_enabled, "controls_enabled deve voltar a ser verdadeiro")
+	
+	app.queue_free()
+	print("[PASS] test_camera_zoom_scope_validation: Restricao de zoom na tela de abertura e ativacao exclusiva no estadio validada")
+	return true
+
