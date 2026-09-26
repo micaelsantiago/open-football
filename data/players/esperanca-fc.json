@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-esperanca-fc-01",
+    "name": "Rafael Fernandes",
+    "common_name": "Fernandes",
+    "birth_year": 2001,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 41,
+        "dribbling": 36,
+        "crossing": 31,
+        "tackling": 23,
+        "heading": 36
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 57,
+        "stamina": 83,
+        "strength": 41
+      },
+      "mental": {
+        "positioning": 56,
+        "vision": 39,
+        "composure": 55,
+        "work_rate": 69
+      },
+      "goalkeeping": {
+        "reflexes": 62,
+        "handling": 61,
+        "aerial": 60
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1464,
+      "rounds_remaining": 25,
+      "release_clause": 178608
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-02",
+    "name": "Danilo Rocha",
+    "common_name": "Danilo",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 42,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 24,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 54,
+        "stamina": 75,
+        "strength": 42
+      },
+      "mental": {
+        "positioning": 55,
+        "vision": 40,
+        "composure": 55,
+        "work_rate": 84
+      },
+      "goalkeeping": {
+        "reflexes": 58,
+        "handling": 61,
+        "aerial": 54
+      }
+    },
+    "potential": {
+      "min": 68,
+      "max": 72
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1648,
+      "rounds_remaining": 18,
+      "release_clause": 237312
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-03",
+    "name": "Thiago Mendes",
+    "common_name": "Mendes",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 30,
+        "dribbling": 25,
+        "crossing": 25,
+        "tackling": 46,
+        "heading": 50
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 46,
+        "stamina": 75,
+        "strength": 50
+      },
+      "mental": {
+        "positioning": 46,
+        "vision": 30,
+        "composure": 38,
+        "work_rate": 81
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 43,
+      "max": 46
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1093,
+      "rounds_remaining": 41,
+      "release_clause": 161764
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-04",
+    "name": "Renan Ramos",
+    "common_name": "Renan",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 42,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 60,
+        "heading": 56
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 60,
+        "stamina": 68,
+        "strength": 57
+      },
+      "mental": {
+        "positioning": 55,
+        "vision": 40,
+        "composure": 51,
+        "work_rate": 79
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 59
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1391,
+      "rounds_remaining": 42,
+      "release_clause": 115453
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 76,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-05",
+    "name": "Renan Souza",
+    "common_name": "Renan",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 33,
+        "dribbling": 28,
+        "crossing": 25,
+        "tackling": 50,
+        "heading": 48
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 47,
+        "stamina": 67,
+        "strength": 53
+      },
+      "mental": {
+        "positioning": 48,
+        "vision": 31,
+        "composure": 43,
+        "work_rate": 91
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 45,
+      "max": 51
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1178,
+      "rounds_remaining": 32,
+      "release_clause": 115444
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-06",
+    "name": "Danilo Soares",
+    "common_name": "Soares",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 21,
+        "passing": 36,
+        "dribbling": 31,
+        "crossing": 48,
+        "tackling": 58,
+        "heading": 31
+      },
+      "physical": {
+        "pace": 54,
+        "acceleration": 52,
+        "stamina": 85,
+        "strength": 36
+      },
+      "mental": {
+        "positioning": 48,
+        "vision": 34,
+        "composure": 47,
+        "work_rate": 89
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 46,
+      "max": 52
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1335,
+      "rounds_remaining": 41,
+      "release_clause": 157530
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 81,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-07",
+    "name": "Fernando Cardoso",
+    "common_name": "Cardoso",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 30,
+        "dribbling": 25,
+        "crossing": 42,
+        "tackling": 51,
+        "heading": 25
+      },
+      "physical": {
+        "pace": 47,
+        "acceleration": 42,
+        "stamina": 83,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 46,
+        "vision": 30,
+        "composure": 37,
+        "work_rate": 91
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 51,
+      "max": 58
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1203,
+      "rounds_remaining": 40,
+      "release_clause": 139548
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-08",
+    "name": "Arthur Almeida",
+    "common_name": "Almeida",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 39,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 58,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 58,
+        "stamina": 66,
+        "strength": 58
+      },
+      "mental": {
+        "positioning": 47,
+        "vision": 37,
+        "composure": 47,
+        "work_rate": 78
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 68
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1342,
+      "rounds_remaining": 24,
+      "release_clause": 178486
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-09",
+    "name": "Caio Lima",
+    "common_name": "Lima",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 58,
+        "dribbling": 36,
+        "crossing": 31,
+        "tackling": 23,
+        "heading": 36
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 60,
+        "stamina": 74,
+        "strength": 41
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 61,
+        "composure": 49,
+        "work_rate": 89
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1584,
+      "rounds_remaining": 16,
+      "release_clause": 155232
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-10",
+    "name": "Murilo Andrade",
+    "common_name": "Murilo",
+    "birth_year": 2001,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 47,
+        "dribbling": 25,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 25
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 48,
+        "stamina": 85,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 41,
+        "vision": 44,
+        "composure": 40,
+        "work_rate": 90
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 40,
+      "max": 45
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1294,
+      "rounds_remaining": 14,
+      "release_clause": 156574
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-11",
+    "name": "Rafael Freitas",
+    "common_name": "Rafael",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 57,
+        "passing": 60,
+        "dribbling": 60,
+        "crossing": 33,
+        "tackling": 25,
+        "heading": 38
+      },
+      "physical": {
+        "pace": 45,
+        "acceleration": 56,
+        "stamina": 68,
+        "strength": 43
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 61,
+        "composure": 52,
+        "work_rate": 84
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 55,
+      "max": 63
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1593,
+      "rounds_remaining": 28,
+      "release_clause": 202311
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-12",
+    "name": "Leonardo Marques",
+    "common_name": "Marques",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 52,
+        "dribbling": 34,
+        "crossing": 56,
+        "tackling": 21,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 56,
+        "stamina": 71,
+        "strength": 39
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 37,
+        "composure": 53,
+        "work_rate": 75
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 67,
+      "max": 73
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1480,
+      "rounds_remaining": 41,
+      "release_clause": 186480
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 78,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-13",
+    "name": "Henrique Nascimento",
+    "common_name": "Nascimento",
+    "birth_year": 2001,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 43,
+        "dribbling": 25,
+        "crossing": 46,
+        "tackling": 20,
+        "heading": 25
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 44,
+        "stamina": 85,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 45,
+        "vision": 30,
+        "composure": 45,
+        "work_rate": 61
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 41,
+      "max": 45
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1054,
+      "rounds_remaining": 15,
+      "release_clause": 128588
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-14",
+    "name": "Diego Carvalho",
+    "common_name": "Carvalho",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 49,
+        "passing": 30,
+        "dribbling": 50,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 45
+      },
+      "physical": {
+        "pace": 52,
+        "acceleration": 42,
+        "stamina": 73,
+        "strength": 46
+      },
+      "mental": {
+        "positioning": 38,
+        "vision": 30,
+        "composure": 45,
+        "work_rate": 76
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 41,
+      "max": 48
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1130,
+      "rounds_remaining": 39,
+      "release_clause": 115260
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 78,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-15",
+    "name": "Gabriel Lima",
+    "common_name": "Gabriel",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 43,
+        "passing": 30,
+        "dribbling": 44,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 48
+      },
+      "physical": {
+        "pace": 50,
+        "acceleration": 42,
+        "stamina": 88,
+        "strength": 44
+      },
+      "mental": {
+        "positioning": 42,
+        "vision": 30,
+        "composure": 43,
+        "work_rate": 83
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 40,
+      "max": 47
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1157,
+      "rounds_remaining": 30,
+      "release_clause": 107601
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 89,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-esperanca-fc-16",
+    "name": "Eduardo Oliveira",
+    "common_name": "Eduardo",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 60,
+        "passing": 40,
+        "dribbling": 57,
+        "crossing": 30,
+        "tackling": 22,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 60,
+        "acceleration": 59,
+        "stamina": 67,
+        "strength": 55
+      },
+      "mental": {
+        "positioning": 51,
+        "vision": 38,
+        "composure": 56,
+        "work_rate": 69
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 58
+    },
+    "contract": {
+      "club_id": "club-esperanca-fc",
+      "wage_per_round": 1315,
+      "rounds_remaining": 16,
+      "release_clause": 126240
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

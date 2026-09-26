@@ -1,0 +1,57 @@
+{
+  "id": "facility-estadio-aurora",
+  "club_id": "club-aurora-fc",
+  "type": "STADIUM",
+  "name": "Estádio das Colinas",
+  "world_position": {
+    "grid_x": 12,
+    "grid_y": 8
+  },
+  "current_level": 1,
+  "levels": [
+    {
+      "level": 1,
+      "name": "Estádio Comunitário",
+      "capacity": 3000,
+      "maintenance_cost_per_round": 1200,
+      "upgrade_cost": 0,
+      "construction_time_rounds": 0,
+      "visual": {
+        "footprint_width": 4,
+        "footprint_height": 4,
+        "texture_path": "assets/world/buildings/stadium_lvl1.png"
+      }
+    },
+    {
+      "level": 2,
+      "name": "Arena Regional de Alvenaria",
+      "capacity": 8500,
+      "maintenance_cost_per_round": 3500,
+      "upgrade_cost": 150000,
+      "construction_time_rounds": 4,
+      "visual": {
+        "footprint_width": 4,
+        "footprint_height": 4,
+        "texture_path": "assets/world/buildings/stadium_lvl2.png"
+      }
+    },
+    {
+      "level": 3,
+      "name": "Estádio Moderno Metropolitano",
+      "capacity": 22000,
+      "maintenance_cost_per_round": 9000,
+      "upgrade_cost": 500000,
+      "construction_time_rounds": 8,
+      "visual": {
+        "footprint_width": 6,
+        "footprint_height": 6,
+        "texture_path": "assets/world/buildings/stadium_lvl3.png"
+      }
+    }
+  ],
+  "construction_state": {
+    "is_under_construction": false,
+    "target_level": 1,
+    "rounds_remaining": 0
+  }
+}

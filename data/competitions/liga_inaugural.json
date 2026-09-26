@@ -1,0 +1,339 @@
+{
+  "id": "comp-liga-inaugural",
+  "name": "Liga Inaugural Open Football",
+  "short_name": "Liga Inaugural",
+  "country": "BR",
+  "tier": 1,
+  "format": "ROUND_ROBIN",
+  "participants": {
+    "teams_count": 8,
+    "clubs": [
+      "club-aurora-fc",
+      "club-uniao-fc",
+      "club-estrela-ec",
+      "club-esperanca-fc",
+      "club-metropolitano-fc",
+      "club-atletico-vale",
+      "club-real-litoraneo",
+      "club-juventude-paulista"
+    ]
+  },
+  "rules": {
+    "matches_against_each_opponent": 2,
+    "points_for_win": 3,
+    "points_for_draw": 1,
+    "points_for_loss": 0,
+    "substitutions_allowed": 5,
+    "substitutions_windows": 3,
+    "tiebreakers": [
+      "POINTS",
+      "WINS",
+      "GOAL_DIFFERENCE",
+      "GOALS_FOR",
+      "HEAD_TO_HEAD"
+    ]
+  },
+  "rewards": {
+    "champion_prize": 100000,
+    "runner_up_prize": 50000,
+    "third_place_prize": 25000
+  },
+  "season_calendar": {
+    "match_days": [
+      {
+        "round": 1,
+        "fixtures": [
+          {
+            "home": "club-aurora-fc",
+            "away": "club-juventude-paulista"
+          },
+          {
+            "home": "club-uniao-fc",
+            "away": "club-real-litoraneo"
+          },
+          {
+            "home": "club-estrela-ec",
+            "away": "club-atletico-vale"
+          },
+          {
+            "home": "club-esperanca-fc",
+            "away": "club-metropolitano-fc"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "fixtures": [
+          {
+            "home": "club-real-litoraneo",
+            "away": "club-aurora-fc"
+          },
+          {
+            "home": "club-atletico-vale",
+            "away": "club-juventude-paulista"
+          },
+          {
+            "home": "club-metropolitano-fc",
+            "away": "club-uniao-fc"
+          },
+          {
+            "home": "club-esperanca-fc",
+            "away": "club-estrela-ec"
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "fixtures": [
+          {
+            "home": "club-aurora-fc",
+            "away": "club-atletico-vale"
+          },
+          {
+            "home": "club-real-litoraneo",
+            "away": "club-metropolitano-fc"
+          },
+          {
+            "home": "club-juventude-paulista",
+            "away": "club-esperanca-fc"
+          },
+          {
+            "home": "club-uniao-fc",
+            "away": "club-estrela-ec"
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "fixtures": [
+          {
+            "home": "club-metropolitano-fc",
+            "away": "club-aurora-fc"
+          },
+          {
+            "home": "club-esperanca-fc",
+            "away": "club-atletico-vale"
+          },
+          {
+            "home": "club-estrela-ec",
+            "away": "club-real-litoraneo"
+          },
+          {
+            "home": "club-uniao-fc",
+            "away": "club-juventude-paulista"
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "fixtures": [
+          {
+            "home": "club-aurora-fc",
+            "away": "club-esperanca-fc"
+          },
+          {
+            "home": "club-metropolitano-fc",
+            "away": "club-estrela-ec"
+          },
+          {
+            "home": "club-atletico-vale",
+            "away": "club-uniao-fc"
+          },
+          {
+            "home": "club-real-litoraneo",
+            "away": "club-juventude-paulista"
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "fixtures": [
+          {
+            "home": "club-estrela-ec",
+            "away": "club-aurora-fc"
+          },
+          {
+            "home": "club-uniao-fc",
+            "away": "club-esperanca-fc"
+          },
+          {
+            "home": "club-juventude-paulista",
+            "away": "club-metropolitano-fc"
+          },
+          {
+            "home": "club-real-litoraneo",
+            "away": "club-atletico-vale"
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "fixtures": [
+          {
+            "home": "club-aurora-fc",
+            "away": "club-uniao-fc"
+          },
+          {
+            "home": "club-estrela-ec",
+            "away": "club-juventude-paulista"
+          },
+          {
+            "home": "club-esperanca-fc",
+            "away": "club-real-litoraneo"
+          },
+          {
+            "home": "club-metropolitano-fc",
+            "away": "club-atletico-vale"
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "fixtures": [
+          {
+            "home": "club-juventude-paulista",
+            "away": "club-aurora-fc"
+          },
+          {
+            "home": "club-real-litoraneo",
+            "away": "club-uniao-fc"
+          },
+          {
+            "home": "club-atletico-vale",
+            "away": "club-estrela-ec"
+          },
+          {
+            "home": "club-metropolitano-fc",
+            "away": "club-esperanca-fc"
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "fixtures": [
+          {
+            "home": "club-aurora-fc",
+            "away": "club-real-litoraneo"
+          },
+          {
+            "home": "club-juventude-paulista",
+            "away": "club-atletico-vale"
+          },
+          {
+            "home": "club-uniao-fc",
+            "away": "club-metropolitano-fc"
+          },
+          {
+            "home": "club-estrela-ec",
+            "away": "club-esperanca-fc"
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "fixtures": [
+          {
+            "home": "club-atletico-vale",
+            "away": "club-aurora-fc"
+          },
+          {
+            "home": "club-metropolitano-fc",
+            "away": "club-real-litoraneo"
+          },
+          {
+            "home": "club-esperanca-fc",
+            "away": "club-juventude-paulista"
+          },
+          {
+            "home": "club-estrela-ec",
+            "away": "club-uniao-fc"
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "fixtures": [
+          {
+            "home": "club-aurora-fc",
+            "away": "club-metropolitano-fc"
+          },
+          {
+            "home": "club-atletico-vale",
+            "away": "club-esperanca-fc"
+          },
+          {
+            "home": "club-real-litoraneo",
+            "away": "club-estrela-ec"
+          },
+          {
+            "home": "club-juventude-paulista",
+            "away": "club-uniao-fc"
+          }
+        ]
+      },
+      {
+        "round": 12,
+        "fixtures": [
+          {
+            "home": "club-esperanca-fc",
+            "away": "club-aurora-fc"
+          },
+          {
+            "home": "club-estrela-ec",
+            "away": "club-metropolitano-fc"
+          },
+          {
+            "home": "club-uniao-fc",
+            "away": "club-atletico-vale"
+          },
+          {
+            "home": "club-juventude-paulista",
+            "away": "club-real-litoraneo"
+          }
+        ]
+      },
+      {
+        "round": 13,
+        "fixtures": [
+          {
+            "home": "club-aurora-fc",
+            "away": "club-estrela-ec"
+          },
+          {
+            "home": "club-esperanca-fc",
+            "away": "club-uniao-fc"
+          },
+          {
+            "home": "club-metropolitano-fc",
+            "away": "club-juventude-paulista"
+          },
+          {
+            "home": "club-atletico-vale",
+            "away": "club-real-litoraneo"
+          }
+        ]
+      },
+      {
+        "round": 14,
+        "fixtures": [
+          {
+            "home": "club-uniao-fc",
+            "away": "club-aurora-fc"
+          },
+          {
+            "home": "club-juventude-paulista",
+            "away": "club-estrela-ec"
+          },
+          {
+            "home": "club-real-litoraneo",
+            "away": "club-esperanca-fc"
+          },
+          {
+            "home": "club-atletico-vale",
+            "away": "club-metropolitano-fc"
+          }
+        ]
+      }
+    ]
+  }
+}

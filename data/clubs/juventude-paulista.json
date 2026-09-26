@@ -1,0 +1,68 @@
+{
+  "id": "club-juventude-paulista",
+  "name": "Juventude Esportiva Paulista",
+  "short_name": "Juventude",
+  "nickname": "O Colorado do Interior",
+  "founded_year": 1999,
+  "country": "BR",
+  "city": "Planalto",
+  "reputation": 45,
+  "colors": {
+    "primary": "#922B21",
+    "secondary": "#FFFFFF",
+    "accent": "#1B2631"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-juventude-paulista",
+    "training_center_id": ""
+  },
+  "finances": {
+    "balance": 210000,
+    "ticket_price": 16,
+    "season_tickets": 1125,
+    "weekly_sponsor": 7200
+  },
+  "squad": [
+    "player-juventude-paulista-01",
+    "player-juventude-paulista-02",
+    "player-juventude-paulista-03",
+    "player-juventude-paulista-04",
+    "player-juventude-paulista-05",
+    "player-juventude-paulista-06",
+    "player-juventude-paulista-07",
+    "player-juventude-paulista-08",
+    "player-juventude-paulista-09",
+    "player-juventude-paulista-10",
+    "player-juventude-paulista-11",
+    "player-juventude-paulista-12",
+    "player-juventude-paulista-13",
+    "player-juventude-paulista-14",
+    "player-juventude-paulista-15",
+    "player-juventude-paulista-16"
+  ],
+  "tactics_preset": {
+    "formation": "4-4-2",
+    "mentality": "BALANCED",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-juventude-paulista-01",
+      "player-juventude-paulista-02",
+      "player-juventude-paulista-03",
+      "player-juventude-paulista-04",
+      "player-juventude-paulista-05",
+      "player-juventude-paulista-06",
+      "player-juventude-paulista-07",
+      "player-juventude-paulista-08",
+      "player-juventude-paulista-09",
+      "player-juventude-paulista-10",
+      "player-juventude-paulista-11"
+    ],
+    "substitutes": [
+      "player-juventude-paulista-12",
+      "player-juventude-paulista-13",
+      "player-juventude-paulista-14",
+      "player-juventude-paulista-15",
+      "player-juventude-paulista-16"
+    ]
+  }
+}

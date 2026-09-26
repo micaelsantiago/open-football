@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-uniao-fc-01",
+    "name": "Andre Costa",
+    "common_name": "Andre",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 39,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 21,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 55,
+        "stamina": 86,
+        "strength": 39
+      },
+      "mental": {
+        "positioning": 46,
+        "vision": 37,
+        "composure": 48,
+        "work_rate": 76
+      },
+      "goalkeeping": {
+        "reflexes": 54,
+        "handling": 52,
+        "aerial": 59
+      }
+    },
+    "potential": {
+      "min": 51,
+      "max": 58
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1542,
+      "rounds_remaining": 18,
+      "release_clause": 175788
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-02",
+    "name": "Vinicius Dias",
+    "common_name": "Vinicius",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 35,
+        "dribbling": 30,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 30
+      },
+      "physical": {
+        "pace": 37,
+        "acceleration": 48,
+        "stamina": 85,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 47,
+        "vision": 33,
+        "composure": 46,
+        "work_rate": 62
+      },
+      "goalkeeping": {
+        "reflexes": 49,
+        "handling": 52,
+        "aerial": 49
+      }
+    },
+    "potential": {
+      "min": 47,
+      "max": 54
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1410,
+      "rounds_remaining": 34,
+      "release_clause": 159330
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-03",
+    "name": "Wagner Machado",
+    "common_name": "Machado",
+    "birth_year": 2008,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 25,
+        "passing": 40,
+        "dribbling": 35,
+        "crossing": 30,
+        "tackling": 57,
+        "heading": 59
+      },
+      "physical": {
+        "pace": 42,
+        "acceleration": 54,
+        "stamina": 66,
+        "strength": 58
+      },
+      "mental": {
+        "positioning": 51,
+        "vision": 38,
+        "composure": 47,
+        "work_rate": 82
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 56,
+      "max": 59
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1376,
+      "rounds_remaining": 20,
+      "release_clause": 152736
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 78,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-04",
+    "name": "Arthur Marques",
+    "common_name": "Marques",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 41,
+        "dribbling": 36,
+        "crossing": 31,
+        "tackling": 62,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 55,
+        "stamina": 88,
+        "strength": 60
+      },
+      "mental": {
+        "positioning": 53,
+        "vision": 39,
+        "composure": 51,
+        "work_rate": 77
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 56
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1411,
+      "rounds_remaining": 19,
+      "release_clause": 131223
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-05",
+    "name": "Matheus Cardoso",
+    "common_name": "Matheus",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 35,
+        "dribbling": 30,
+        "crossing": 25,
+        "tackling": 53,
+        "heading": 48
+      },
+      "physical": {
+        "pace": 37,
+        "acceleration": 50,
+        "stamina": 77,
+        "strength": 54
+      },
+      "mental": {
+        "positioning": 45,
+        "vision": 33,
+        "composure": 43,
+        "work_rate": 77
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 69
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1339,
+      "rounds_remaining": 25,
+      "release_clause": 194155
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-06",
+    "name": "Vitor Santos",
+    "common_name": "Vitor",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 33,
+        "dribbling": 28,
+        "crossing": 48,
+        "tackling": 53,
+        "heading": 28
+      },
+      "physical": {
+        "pace": 51,
+        "acceleration": 51,
+        "stamina": 84,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 47,
+        "vision": 31,
+        "composure": 41,
+        "work_rate": 84
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 44,
+      "max": 51
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1239,
+      "rounds_remaining": 42,
+      "release_clause": 128856
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-07",
+    "name": "Matheus Machado",
+    "common_name": "Matheus",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 32,
+        "dribbling": 27,
+        "crossing": 48,
+        "tackling": 52,
+        "heading": 27
+      },
+      "physical": {
+        "pace": 46,
+        "acceleration": 48,
+        "stamina": 81,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 42,
+        "vision": 30,
+        "composure": 45,
+        "work_rate": 80
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 43,
+      "max": 48
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1296,
+      "rounds_remaining": 26,
+      "release_clause": 151632
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-08",
+    "name": "Caio Marques",
+    "common_name": "Caio",
+    "birth_year": 2001,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 42,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 57,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 58,
+        "stamina": 74,
+        "strength": 59
+      },
+      "mental": {
+        "positioning": 54,
+        "vision": 40,
+        "composure": 58,
+        "work_rate": 80
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1647,
+      "rounds_remaining": 28,
+      "release_clause": 223992
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 89,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-09",
+    "name": "Vinicius Cardoso",
+    "common_name": "Vinicius",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 29,
+        "passing": 62,
+        "dribbling": 39,
+        "crossing": 34,
+        "tackling": 26,
+        "heading": 39
+      },
+      "physical": {
+        "pace": 46,
+        "acceleration": 57,
+        "stamina": 72,
+        "strength": 44
+      },
+      "mental": {
+        "positioning": 60,
+        "vision": 60,
+        "composure": 54,
+        "work_rate": 72
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 55,
+      "max": 63
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1455,
+      "rounds_remaining": 18,
+      "release_clause": 120765
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 76,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-10",
+    "name": "Guilherme Cardoso",
+    "common_name": "Guilherme",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 61,
+        "dribbling": 36,
+        "crossing": 31,
+        "tackling": 23,
+        "heading": 36
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 59,
+        "stamina": 72,
+        "strength": 41
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 60,
+        "composure": 48,
+        "work_rate": 66
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 69
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1622,
+      "rounds_remaining": 38,
+      "release_clause": 217348
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-11",
+    "name": "Gustavo Freitas",
+    "common_name": "Gustavo",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 54,
+        "passing": 50,
+        "dribbling": 52,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 27
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 51,
+        "stamina": 84,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 46,
+        "vision": 49,
+        "composure": 47,
+        "work_rate": 88
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 43,
+      "max": 46
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1309,
+      "rounds_remaining": 42,
+      "release_clause": 130900
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-12",
+    "name": "Wagner Soares",
+    "common_name": "Soares",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 29,
+        "passing": 64,
+        "dribbling": 39,
+        "crossing": 61,
+        "tackling": 26,
+        "heading": 39
+      },
+      "physical": {
+        "pace": 46,
+        "acceleration": 59,
+        "stamina": 73,
+        "strength": 44
+      },
+      "mental": {
+        "positioning": 57,
+        "vision": 42,
+        "composure": 52,
+        "work_rate": 78
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 72,
+      "max": 80
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1553,
+      "rounds_remaining": 21,
+      "release_clause": 177042
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-13",
+    "name": "Renan Ferreira",
+    "common_name": "Ferreira",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 53,
+        "dribbling": 29,
+        "crossing": 49,
+        "tackling": 20,
+        "heading": 29
+      },
+      "physical": {
+        "pace": 36,
+        "acceleration": 51,
+        "stamina": 82,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 47,
+        "vision": 32,
+        "composure": 47,
+        "work_rate": 63
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 58
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1210,
+      "rounds_remaining": 20,
+      "release_clause": 160930
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-14",
+    "name": "Gabriel Moreira",
+    "common_name": "Moreira",
+    "birth_year": 2008,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 61,
+        "passing": 39,
+        "dribbling": 58,
+        "crossing": 29,
+        "tackling": 21,
+        "heading": 55
+      },
+      "physical": {
+        "pace": 59,
+        "acceleration": 54,
+        "stamina": 73,
+        "strength": 59
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 37,
+        "composure": 46,
+        "work_rate": 84
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 59,
+      "max": 64
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1471,
+      "rounds_remaining": 24,
+      "release_clause": 192701
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-15",
+    "name": "Danilo Lima",
+    "common_name": "Lima",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 61,
+        "passing": 41,
+        "dribbling": 56,
+        "crossing": 31,
+        "tackling": 23,
+        "heading": 61
+      },
+      "physical": {
+        "pace": 56,
+        "acceleration": 53,
+        "stamina": 73,
+        "strength": 61
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 39,
+        "composure": 51,
+        "work_rate": 89
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 51,
+      "max": 57
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1616,
+      "rounds_remaining": 24,
+      "release_clause": 198768
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-uniao-fc-16",
+    "name": "Marcos Marques",
+    "common_name": "Marcos",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 53,
+        "passing": 36,
+        "dribbling": 55,
+        "crossing": 26,
+        "tackling": 20,
+        "heading": 50
+      },
+      "physical": {
+        "pace": 49,
+        "acceleration": 48,
+        "stamina": 72,
+        "strength": 53
+      },
+      "mental": {
+        "positioning": 42,
+        "vision": 34,
+        "composure": 52,
+        "work_rate": 69
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 58,
+      "max": 61
+    },
+    "contract": {
+      "club_id": "club-uniao-fc",
+      "wage_per_round": 1464,
+      "rounds_remaining": 21,
+      "release_clause": 140544
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

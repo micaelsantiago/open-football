@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-real-litoraneo-01",
+    "name": "Felipe Pereira",
+    "common_name": "Felipe",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 39,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 21,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 56,
+        "stamina": 81,
+        "strength": 39
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 37,
+        "composure": 47,
+        "work_rate": 76
+      },
+      "goalkeeping": {
+        "reflexes": 56,
+        "handling": 59,
+        "aerial": 55
+      }
+    },
+    "potential": {
+      "min": 58,
+      "max": 62
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1354,
+      "rounds_remaining": 18,
+      "release_clause": 159772
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-02",
+    "name": "Danilo Gomes",
+    "common_name": "Gomes",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 33,
+        "dribbling": 28,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 28
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 46,
+        "stamina": 66,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 31,
+        "composure": 49,
+        "work_rate": 76
+      },
+      "goalkeeping": {
+        "reflexes": 50,
+        "handling": 51,
+        "aerial": 45
+      }
+    },
+    "potential": {
+      "min": 45,
+      "max": 52
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1125,
+      "rounds_remaining": 29,
+      "release_clause": 167625
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-03",
+    "name": "Alex Cardoso",
+    "common_name": "Alex",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 34,
+        "dribbling": 29,
+        "crossing": 25,
+        "tackling": 51,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 36,
+        "acceleration": 52,
+        "stamina": 80,
+        "strength": 55
+      },
+      "mental": {
+        "positioning": 43,
+        "vision": 32,
+        "composure": 46,
+        "work_rate": 69
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 47,
+      "max": 52
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1364,
+      "rounds_remaining": 24,
+      "release_clause": 163680
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 86,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-04",
+    "name": "Murilo Lima",
+    "common_name": "Lima",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 28,
+        "passing": 43,
+        "dribbling": 38,
+        "crossing": 33,
+        "tackling": 65,
+        "heading": 59
+      },
+      "physical": {
+        "pace": 45,
+        "acceleration": 57,
+        "stamina": 68,
+        "strength": 57
+      },
+      "mental": {
+        "positioning": 53,
+        "vision": 41,
+        "composure": 56,
+        "work_rate": 86
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 58
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1507,
+      "rounds_remaining": 21,
+      "release_clause": 150700
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-05",
+    "name": "Renan Martins",
+    "common_name": "Martins",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 28,
+        "passing": 43,
+        "dribbling": 38,
+        "crossing": 33,
+        "tackling": 65,
+        "heading": 56
+      },
+      "physical": {
+        "pace": 45,
+        "acceleration": 56,
+        "stamina": 77,
+        "strength": 65
+      },
+      "mental": {
+        "positioning": 56,
+        "vision": 41,
+        "composure": 53,
+        "work_rate": 73
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 65,
+      "max": 72
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1623,
+      "rounds_remaining": 32,
+      "release_clause": 202875
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 76,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-06",
+    "name": "Felipe Vieira",
+    "common_name": "Felipe",
+    "birth_year": 1997,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 23,
+        "passing": 38,
+        "dribbling": 33,
+        "crossing": 53,
+        "tackling": 55,
+        "heading": 33
+      },
+      "physical": {
+        "pace": 55,
+        "acceleration": 55,
+        "stamina": 77,
+        "strength": 38
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 36,
+        "composure": 45,
+        "work_rate": 85
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 51,
+      "max": 56
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1518,
+      "rounds_remaining": 15,
+      "release_clause": 157872
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 86,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-07",
+    "name": "Andre Rodrigues",
+    "common_name": "Rodrigues",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 22,
+        "passing": 37,
+        "dribbling": 32,
+        "crossing": 54,
+        "tackling": 53,
+        "heading": 32
+      },
+      "physical": {
+        "pace": 52,
+        "acceleration": 50,
+        "stamina": 77,
+        "strength": 37
+      },
+      "mental": {
+        "positioning": 48,
+        "vision": 35,
+        "composure": 49,
+        "work_rate": 83
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 50,
+      "max": 57
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1359,
+      "rounds_remaining": 38,
+      "release_clause": 133182
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 81,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-08",
+    "name": "Murilo Oliveira",
+    "common_name": "Oliveira",
+    "birth_year": 2008,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 31,
+        "dribbling": 26,
+        "crossing": 25,
+        "tackling": 53,
+        "heading": 26
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 45,
+        "stamina": 84,
+        "strength": 53
+      },
+      "mental": {
+        "positioning": 39,
+        "vision": 30,
+        "composure": 43,
+        "work_rate": 80
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 48,
+      "max": 56
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1218,
+      "rounds_remaining": 19,
+      "release_clause": 158340
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-09",
+    "name": "Vitor Ramos",
+    "common_name": "Vitor",
+    "birth_year": 1997,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 61,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 24,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 58,
+        "stamina": 88,
+        "strength": 42
+      },
+      "mental": {
+        "positioning": 58,
+        "vision": 56,
+        "composure": 58,
+        "work_rate": 90
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 54,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1364,
+      "rounds_remaining": 22,
+      "release_clause": 148676
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 76,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-10",
+    "name": "Otavio Costa",
+    "common_name": "Otavio",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 55,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 21,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 51,
+        "stamina": 79,
+        "strength": 39
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 56,
+        "composure": 48,
+        "work_rate": 86
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 56
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1396,
+      "rounds_remaining": 36,
+      "release_clause": 147976
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-11",
+    "name": "Otavio Souza",
+    "common_name": "Otavio",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 64,
+        "passing": 61,
+        "dribbling": 58,
+        "crossing": 32,
+        "tackling": 24,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 56,
+        "stamina": 79,
+        "strength": 42
+      },
+      "mental": {
+        "positioning": 56,
+        "vision": 58,
+        "composure": 57,
+        "work_rate": 82
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 65,
+      "max": 69
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1643,
+      "rounds_remaining": 35,
+      "release_clause": 185659
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-12",
+    "name": "Caio Lopes",
+    "common_name": "Lopes",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 55,
+        "dribbling": 30,
+        "crossing": 49,
+        "tackling": 20,
+        "heading": 30
+      },
+      "physical": {
+        "pace": 37,
+        "acceleration": 54,
+        "stamina": 76,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 33,
+        "composure": 46,
+        "work_rate": 78
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 47,
+      "max": 51
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1312,
+      "rounds_remaining": 17,
+      "release_clause": 195488
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-13",
+    "name": "Murilo Nascimento",
+    "common_name": "Nascimento",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 28,
+        "passing": 61,
+        "dribbling": 38,
+        "crossing": 58,
+        "tackling": 25,
+        "heading": 38
+      },
+      "physical": {
+        "pace": 45,
+        "acceleration": 59,
+        "stamina": 88,
+        "strength": 43
+      },
+      "mental": {
+        "positioning": 56,
+        "vision": 41,
+        "composure": 53,
+        "work_rate": 72
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 62,
+      "max": 65
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1531,
+      "rounds_remaining": 40,
+      "release_clause": 226588
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-14",
+    "name": "Marcos Lima",
+    "common_name": "Lima",
+    "birth_year": 1997,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 49,
+        "passing": 32,
+        "dribbling": 51,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 48
+      },
+      "physical": {
+        "pace": 45,
+        "acceleration": 45,
+        "stamina": 78,
+        "strength": 51
+      },
+      "mental": {
+        "positioning": 45,
+        "vision": 30,
+        "composure": 40,
+        "work_rate": 68
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 43,
+      "max": 47
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1101,
+      "rounds_remaining": 14,
+      "release_clause": 165150
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-15",
+    "name": "Samuel Cardoso",
+    "common_name": "Samuel",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 53,
+        "passing": 38,
+        "dribbling": 57,
+        "crossing": 28,
+        "tackling": 20,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 59,
+        "acceleration": 50,
+        "stamina": 70,
+        "strength": 58
+      },
+      "mental": {
+        "positioning": 46,
+        "vision": 36,
+        "composure": 45,
+        "work_rate": 85
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 49,
+      "max": 54
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1408,
+      "rounds_remaining": 39,
+      "release_clause": 201344
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-real-litoraneo-16",
+    "name": "Andre Oliveira",
+    "common_name": "Oliveira",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 53,
+        "passing": 31,
+        "dribbling": 48,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 46
+      },
+      "physical": {
+        "pace": 52,
+        "acceleration": 50,
+        "stamina": 73,
+        "strength": 48
+      },
+      "mental": {
+        "positioning": 38,
+        "vision": 30,
+        "composure": 43,
+        "work_rate": 70
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 41,
+      "max": 46
+    },
+    "contract": {
+      "club_id": "club-real-litoraneo",
+      "wage_per_round": 1193,
+      "rounds_remaining": 37,
+      "release_clause": 164634
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-aurora-fc-01",
+    "name": "Rodrigo Santos",
+    "common_name": "Santos",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 30,
+        "passing": 45,
+        "dribbling": 40,
+        "crossing": 35,
+        "tackling": 27,
+        "heading": 40
+      },
+      "physical": {
+        "pace": 47,
+        "acceleration": 58,
+        "stamina": 83,
+        "strength": 45
+      },
+      "mental": {
+        "positioning": 57,
+        "vision": 43,
+        "composure": 52,
+        "work_rate": 61
+      },
+      "goalkeeping": {
+        "reflexes": 60,
+        "handling": 60,
+        "aerial": 60
+      }
+    },
+    "potential": {
+      "min": 56,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1511,
+      "rounds_remaining": 30,
+      "release_clause": 125413
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 81,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-02",
+    "name": "Samuel Almeida",
+    "common_name": "Almeida",
+    "birth_year": 1997,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 41,
+        "dribbling": 36,
+        "crossing": 31,
+        "tackling": 23,
+        "heading": 36
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 57,
+        "stamina": 69,
+        "strength": 41
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 39,
+        "composure": 53,
+        "work_rate": 66
+      },
+      "goalkeeping": {
+        "reflexes": 56,
+        "handling": 59,
+        "aerial": 54
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 56
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1409,
+      "rounds_remaining": 25,
+      "release_clause": 174716
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-03",
+    "name": "Matheus Freitas",
+    "common_name": "Matheus",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 42,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 62,
+        "heading": 58
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 55,
+        "stamina": 66,
+        "strength": 59
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 40,
+        "composure": 50,
+        "work_rate": 74
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 66
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1638,
+      "rounds_remaining": 41,
+      "release_clause": 150696
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-04",
+    "name": "Marcos Freitas",
+    "common_name": "Marcos",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 29,
+        "passing": 44,
+        "dribbling": 39,
+        "crossing": 34,
+        "tackling": 60,
+        "heading": 59
+      },
+      "physical": {
+        "pace": 46,
+        "acceleration": 64,
+        "stamina": 88,
+        "strength": 61
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 42,
+        "composure": 58,
+        "work_rate": 84
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 55,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1593,
+      "rounds_remaining": 22,
+      "release_clause": 172044
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-05",
+    "name": "Felipe Almeida",
+    "common_name": "Felipe",
+    "birth_year": 2008,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 32,
+        "passing": 47,
+        "dribbling": 42,
+        "crossing": 37,
+        "tackling": 67,
+        "heading": 63
+      },
+      "physical": {
+        "pace": 49,
+        "acceleration": 66,
+        "stamina": 77,
+        "strength": 68
+      },
+      "mental": {
+        "positioning": 55,
+        "vision": 45,
+        "composure": 58,
+        "work_rate": 68
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 74,
+      "max": 79
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1701,
+      "rounds_remaining": 21,
+      "release_clause": 251748
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-06",
+    "name": "Renato Nunes",
+    "common_name": "Renato",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 39,
+        "dribbling": 34,
+        "crossing": 57,
+        "tackling": 55,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 54,
+        "acceleration": 53,
+        "stamina": 86,
+        "strength": 39
+      },
+      "mental": {
+        "positioning": 51,
+        "vision": 37,
+        "composure": 55,
+        "work_rate": 64
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 56,
+      "max": 63
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1524,
+      "rounds_remaining": 26,
+      "release_clause": 195072
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 89,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-07",
+    "name": "Igor Silva",
+    "common_name": "Silva",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 29,
+        "passing": 44,
+        "dribbling": 39,
+        "crossing": 56,
+        "tackling": 63,
+        "heading": 39
+      },
+      "physical": {
+        "pace": 63,
+        "acceleration": 58,
+        "stamina": 79,
+        "strength": 44
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 42,
+        "composure": 55,
+        "work_rate": 92
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 54,
+      "max": 62
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1686,
+      "rounds_remaining": 38,
+      "release_clause": 171972
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 78,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-08",
+    "name": "Alex Martins",
+    "common_name": "Martins",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 21,
+        "passing": 36,
+        "dribbling": 31,
+        "crossing": 26,
+        "tackling": 56,
+        "heading": 31
+      },
+      "physical": {
+        "pace": 38,
+        "acceleration": 55,
+        "stamina": 65,
+        "strength": 51
+      },
+      "mental": {
+        "positioning": 47,
+        "vision": 34,
+        "composure": 47,
+        "work_rate": 75
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 47,
+      "max": 54
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1459,
+      "rounds_remaining": 15,
+      "release_clause": 160490
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-09",
+    "name": "Bruno Ramos",
+    "common_name": "Bruno",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 32,
+        "passing": 62,
+        "dribbling": 42,
+        "crossing": 37,
+        "tackling": 29,
+        "heading": 42
+      },
+      "physical": {
+        "pace": 49,
+        "acceleration": 63,
+        "stamina": 81,
+        "strength": 47
+      },
+      "mental": {
+        "positioning": 62,
+        "vision": 64,
+        "composure": 57,
+        "work_rate": 72
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 74,
+      "max": 81
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1560,
+      "rounds_remaining": 36,
+      "release_clause": 185640
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-10",
+    "name": "Henrique Mendes",
+    "common_name": "Henrique",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 33,
+        "passing": 61,
+        "dribbling": 43,
+        "crossing": 38,
+        "tackling": 30,
+        "heading": 43
+      },
+      "physical": {
+        "pace": 50,
+        "acceleration": 68,
+        "stamina": 72,
+        "strength": 48
+      },
+      "mental": {
+        "positioning": 63,
+        "vision": 63,
+        "composure": 55,
+        "work_rate": 64
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 61,
+      "max": 64
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1650,
+      "rounds_remaining": 36,
+      "release_clause": 143550
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-11",
+    "name": "Rafael Oliveira",
+    "common_name": "Rafael",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 64,
+        "passing": 62,
+        "dribbling": 66,
+        "crossing": 37,
+        "tackling": 29,
+        "heading": 42
+      },
+      "physical": {
+        "pace": 49,
+        "acceleration": 66,
+        "stamina": 72,
+        "strength": 47
+      },
+      "mental": {
+        "positioning": 60,
+        "vision": 67,
+        "composure": 60,
+        "work_rate": 72
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 57,
+      "max": 64
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1617,
+      "rounds_remaining": 17,
+      "release_clause": 148764
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-12",
+    "name": "Arthur Machado",
+    "common_name": "Arthur",
+    "birth_year": 2000,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 25,
+        "passing": 54,
+        "dribbling": 35,
+        "crossing": 53,
+        "tackling": 22,
+        "heading": 35
+      },
+      "physical": {
+        "pace": 42,
+        "acceleration": 55,
+        "stamina": 71,
+        "strength": 40
+      },
+      "mental": {
+        "positioning": 54,
+        "vision": 38,
+        "composure": 54,
+        "work_rate": 68
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 50,
+      "max": 58
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1350,
+      "rounds_remaining": 27,
+      "release_clause": 139050
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-13",
+    "name": "Danilo Lopes",
+    "common_name": "Danilo",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 32,
+        "passing": 60,
+        "dribbling": 42,
+        "crossing": 59,
+        "tackling": 29,
+        "heading": 42
+      },
+      "physical": {
+        "pace": 49,
+        "acceleration": 62,
+        "stamina": 70,
+        "strength": 47
+      },
+      "mental": {
+        "positioning": 59,
+        "vision": 45,
+        "composure": 61,
+        "work_rate": 90
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 69,
+      "max": 76
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1546,
+      "rounds_remaining": 20,
+      "release_clause": 202526
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 76,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-14",
+    "name": "Danilo Moreira",
+    "common_name": "Moreira",
+    "birth_year": 2001,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 55,
+        "passing": 34,
+        "dribbling": 49,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 50
+      },
+      "physical": {
+        "pace": 51,
+        "acceleration": 49,
+        "stamina": 66,
+        "strength": 56
+      },
+      "mental": {
+        "positioning": 40,
+        "vision": 32,
+        "composure": 46,
+        "work_rate": 63
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 46,
+      "max": 52
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1278,
+      "rounds_remaining": 15,
+      "release_clause": 180198
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-15",
+    "name": "Felipe Ferreira",
+    "common_name": "Ferreira",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 67,
+        "passing": 47,
+        "dribbling": 61,
+        "crossing": 37,
+        "tackling": 29,
+        "heading": 63
+      },
+      "physical": {
+        "pace": 69,
+        "acceleration": 59,
+        "stamina": 84,
+        "strength": 62
+      },
+      "mental": {
+        "positioning": 59,
+        "vision": 45,
+        "composure": 63,
+        "work_rate": 80
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 70
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1530,
+      "rounds_remaining": 22,
+      "release_clause": 162180
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-aurora-fc-16",
+    "name": "Guilherme Soares",
+    "common_name": "Soares",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 54,
+        "passing": 40,
+        "dribbling": 57,
+        "crossing": 30,
+        "tackling": 22,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 54,
+        "acceleration": 60,
+        "stamina": 71,
+        "strength": 62
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 38,
+        "composure": 49,
+        "work_rate": 82
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 65,
+      "max": 73
+    },
+    "contract": {
+      "club_id": "club-aurora-fc",
+      "wage_per_round": 1453,
+      "rounds_remaining": 42,
+      "release_clause": 127864
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

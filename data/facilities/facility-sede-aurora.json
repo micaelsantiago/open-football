@@ -1,0 +1,30 @@
+{
+  "id": "facility-sede-aurora",
+  "club_id": "club-aurora-fc",
+  "type": "HEADQUARTERS",
+  "name": "Sede Social da Colina",
+  "world_position": {
+    "grid_x": 18,
+    "grid_y": 16
+  },
+  "current_level": 1,
+  "levels": [
+    {
+      "level": 1,
+      "name": "Escritório da Diretoria",
+      "maintenance_cost_per_round": 500,
+      "upgrade_cost": 0,
+      "construction_time_rounds": 0,
+      "visual": {
+        "footprint_width": 2,
+        "footprint_height": 2,
+        "texture_path": "assets/world/buildings/headquarters_lvl1.png"
+      }
+    }
+  ],
+  "construction_state": {
+    "is_under_construction": false,
+    "target_level": 1,
+    "rounds_remaining": 0
+  }
+}

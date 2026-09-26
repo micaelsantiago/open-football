@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-atletico-vale-01",
+    "name": "Gustavo Costa",
+    "common_name": "Costa",
+    "birth_year": 2000,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 22,
+        "passing": 37,
+        "dribbling": 32,
+        "crossing": 27,
+        "tackling": 20,
+        "heading": 32
+      },
+      "physical": {
+        "pace": 39,
+        "acceleration": 56,
+        "stamina": 84,
+        "strength": 37
+      },
+      "mental": {
+        "positioning": 47,
+        "vision": 35,
+        "composure": 51,
+        "work_rate": 74
+      },
+      "goalkeeping": {
+        "reflexes": 59,
+        "handling": 52,
+        "aerial": 53
+      }
+    },
+    "potential": {
+      "min": 47,
+      "max": 53
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1402,
+      "rounds_remaining": 39,
+      "release_clause": 196280
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 81,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-02",
+    "name": "Henrique Mendes",
+    "common_name": "Mendes",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 33,
+        "dribbling": 28,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 28
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 48,
+        "stamina": 84,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 41,
+        "vision": 31,
+        "composure": 44,
+        "work_rate": 63
+      },
+      "goalkeeping": {
+        "reflexes": 54,
+        "handling": 50,
+        "aerial": 53
+      }
+    },
+    "potential": {
+      "min": 46,
+      "max": 53
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1374,
+      "rounds_remaining": 17,
+      "release_clause": 200604
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 78,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-03",
+    "name": "Andre Ferreira",
+    "common_name": "Andre",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 23,
+        "passing": 38,
+        "dribbling": 33,
+        "crossing": 28,
+        "tackling": 54,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 40,
+        "acceleration": 57,
+        "stamina": 76,
+        "strength": 52
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 36,
+        "composure": 45,
+        "work_rate": 85
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 57,
+      "max": 63
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1506,
+      "rounds_remaining": 30,
+      "release_clause": 191262
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-04",
+    "name": "Fernando Ferreira",
+    "common_name": "Ferreira",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 31,
+        "dribbling": 26,
+        "crossing": 25,
+        "tackling": 48,
+        "heading": 46
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 43,
+        "stamina": 74,
+        "strength": 52
+      },
+      "mental": {
+        "positioning": 39,
+        "vision": 30,
+        "composure": 45,
+        "work_rate": 88
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 46,
+      "max": 51
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1098,
+      "rounds_remaining": 33,
+      "release_clause": 87840
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-05",
+    "name": "Gabriel Soares",
+    "common_name": "Soares",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 30,
+        "dribbling": 25,
+        "crossing": 25,
+        "tackling": 47,
+        "heading": 46
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 42,
+        "stamina": 66,
+        "strength": 46
+      },
+      "mental": {
+        "positioning": 41,
+        "vision": 30,
+        "composure": 45,
+        "work_rate": 89
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1262,
+      "rounds_remaining": 16,
+      "release_clause": 118628
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-06",
+    "name": "Gabriel Lopes",
+    "common_name": "Lopes",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 22,
+        "passing": 37,
+        "dribbling": 32,
+        "crossing": 53,
+        "tackling": 58,
+        "heading": 32
+      },
+      "physical": {
+        "pace": 52,
+        "acceleration": 50,
+        "stamina": 81,
+        "strength": 37
+      },
+      "mental": {
+        "positioning": 48,
+        "vision": 35,
+        "composure": 45,
+        "work_rate": 92
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 56,
+      "max": 62
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1216,
+      "rounds_remaining": 39,
+      "release_clause": 175104
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 75,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-07",
+    "name": "Fernando Cardoso",
+    "common_name": "Cardoso",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 30,
+        "dribbling": 25,
+        "crossing": 44,
+        "tackling": 42,
+        "heading": 25
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 41,
+        "stamina": 88,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 42,
+        "vision": 30,
+        "composure": 34,
+        "work_rate": 81
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 39,
+      "max": 44
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1037,
+      "rounds_remaining": 18,
+      "release_clause": 88145
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 86,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-08",
+    "name": "Vitor Ribeiro",
+    "common_name": "Ribeiro",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 39,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 55,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 58,
+        "stamina": 66,
+        "strength": 57
+      },
+      "mental": {
+        "positioning": 48,
+        "vision": 37,
+        "composure": 46,
+        "work_rate": 72
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1517,
+      "rounds_remaining": 42,
+      "release_clause": 128945
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-09",
+    "name": "Alex Nunes",
+    "common_name": "Nunes",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 56,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 21,
+        "heading": 34
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 56,
+        "stamina": 66,
+        "strength": 39
+      },
+      "mental": {
+        "positioning": 55,
+        "vision": 55,
+        "composure": 50,
+        "work_rate": 67
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 57
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1290,
+      "rounds_remaining": 39,
+      "release_clause": 163830
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-10",
+    "name": "Murilo Mendes",
+    "common_name": "Mendes",
+    "birth_year": 2001,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 25,
+        "passing": 57,
+        "dribbling": 35,
+        "crossing": 30,
+        "tackling": 22,
+        "heading": 35
+      },
+      "physical": {
+        "pace": 42,
+        "acceleration": 53,
+        "stamina": 88,
+        "strength": 40
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 54,
+        "composure": 53,
+        "work_rate": 71
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 56
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1554,
+      "rounds_remaining": 31,
+      "release_clause": 181818
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-11",
+    "name": "Thiago Ferreira",
+    "common_name": "Ferreira",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 47,
+        "passing": 51,
+        "dribbling": 47,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 26
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 50,
+        "stamina": 66,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 42,
+        "vision": 49,
+        "composure": 44,
+        "work_rate": 77
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 43,
+      "max": 48
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1276,
+      "rounds_remaining": 34,
+      "release_clause": 111012
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-12",
+    "name": "Murilo Andrade",
+    "common_name": "Andrade",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 47,
+        "dribbling": 29,
+        "crossing": 47,
+        "tackling": 20,
+        "heading": 29
+      },
+      "physical": {
+        "pace": 36,
+        "acceleration": 47,
+        "stamina": 72,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 32,
+        "composure": 46,
+        "work_rate": 83
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 45,
+      "max": 48
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1205,
+      "rounds_remaining": 26,
+      "release_clause": 101220
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-13",
+    "name": "Wagner Andrade",
+    "common_name": "Andrade",
+    "birth_year": 2000,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 49,
+        "dribbling": 26,
+        "crossing": 48,
+        "tackling": 20,
+        "heading": 26
+      },
+      "physical": {
+        "pace": 35,
+        "acceleration": 47,
+        "stamina": 72,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 38,
+        "vision": 30,
+        "composure": 38,
+        "work_rate": 71
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 41,
+      "max": 48
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1118,
+      "rounds_remaining": 29,
+      "release_clause": 163228
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-14",
+    "name": "Rodrigo Soares",
+    "common_name": "Soares",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 55,
+        "passing": 38,
+        "dribbling": 52,
+        "crossing": 28,
+        "tackling": 20,
+        "heading": 53
+      },
+      "physical": {
+        "pace": 52,
+        "acceleration": 57,
+        "stamina": 70,
+        "strength": 59
+      },
+      "mental": {
+        "positioning": 45,
+        "vision": 36,
+        "composure": 50,
+        "work_rate": 82
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 51,
+      "max": 55
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1390,
+      "rounds_remaining": 36,
+      "release_clause": 122320
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-15",
+    "name": "Alex Costa",
+    "common_name": "Alex",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 53,
+        "passing": 37,
+        "dribbling": 52,
+        "crossing": 27,
+        "tackling": 20,
+        "heading": 57
+      },
+      "physical": {
+        "pace": 50,
+        "acceleration": 54,
+        "stamina": 82,
+        "strength": 56
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 35,
+        "composure": 52,
+        "work_rate": 68
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 48,
+      "max": 53
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1476,
+      "rounds_remaining": 33,
+      "release_clause": 134316
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-atletico-vale-16",
+    "name": "Alex Nunes",
+    "common_name": "Nunes",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 52,
+        "passing": 37,
+        "dribbling": 52,
+        "crossing": 27,
+        "tackling": 20,
+        "heading": 55
+      },
+      "physical": {
+        "pace": 51,
+        "acceleration": 56,
+        "stamina": 79,
+        "strength": 59
+      },
+      "mental": {
+        "positioning": 48,
+        "vision": 35,
+        "composure": 46,
+        "work_rate": 71
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 50,
+      "max": 57
+    },
+    "contract": {
+      "club_id": "club-atletico-vale",
+      "wage_per_round": 1426,
+      "rounds_remaining": 38,
+      "release_clause": 136896
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

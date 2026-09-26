@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-juventude-paulista-01",
+    "name": "Gustavo Silva",
+    "common_name": "Gustavo",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 42,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 24,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 60,
+        "stamina": 81,
+        "strength": 42
+      },
+      "mental": {
+        "positioning": 53,
+        "vision": 40,
+        "composure": 50,
+        "work_rate": 85
+      },
+      "goalkeeping": {
+        "reflexes": 57,
+        "handling": 56,
+        "aerial": 56
+      }
+    },
+    "potential": {
+      "min": 54,
+      "max": 61
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1454,
+      "rounds_remaining": 29,
+      "release_clause": 175934
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-02",
+    "name": "Lucas Soares",
+    "common_name": "Lucas",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 22,
+        "passing": 37,
+        "dribbling": 32,
+        "crossing": 27,
+        "tackling": 20,
+        "heading": 32
+      },
+      "physical": {
+        "pace": 39,
+        "acceleration": 49,
+        "stamina": 73,
+        "strength": 37
+      },
+      "mental": {
+        "positioning": 53,
+        "vision": 35,
+        "composure": 49,
+        "work_rate": 75
+      },
+      "goalkeeping": {
+        "reflexes": 51,
+        "handling": 50,
+        "aerial": 56
+      }
+    },
+    "potential": {
+      "min": 59,
+      "max": 64
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1384,
+      "rounds_remaining": 23,
+      "release_clause": 138400
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-03",
+    "name": "Alex Pereira",
+    "common_name": "Alex",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 41,
+        "dribbling": 36,
+        "crossing": 31,
+        "tackling": 63,
+        "heading": 56
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 60,
+        "stamina": 88,
+        "strength": 60
+      },
+      "mental": {
+        "positioning": 53,
+        "vision": 39,
+        "composure": 56,
+        "work_rate": 90
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1441,
+      "rounds_remaining": 38,
+      "release_clause": 213268
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 81,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-04",
+    "name": "Guilherme Ferreira",
+    "common_name": "Guilherme",
+    "birth_year": 2000,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 39,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 57,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 53,
+        "stamina": 75,
+        "strength": 61
+      },
+      "mental": {
+        "positioning": 52,
+        "vision": 37,
+        "composure": 47,
+        "work_rate": 73
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 51,
+      "max": 54
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1560,
+      "rounds_remaining": 36,
+      "release_clause": 221520
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-05",
+    "name": "Wagner Souza",
+    "common_name": "Souza",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 23,
+        "passing": 38,
+        "dribbling": 33,
+        "crossing": 28,
+        "tackling": 60,
+        "heading": 55
+      },
+      "physical": {
+        "pace": 40,
+        "acceleration": 50,
+        "stamina": 77,
+        "strength": 56
+      },
+      "mental": {
+        "positioning": 44,
+        "vision": 36,
+        "composure": 48,
+        "work_rate": 64
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 61,
+      "max": 67
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1477,
+      "rounds_remaining": 15,
+      "release_clause": 197918
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 86,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-06",
+    "name": "Rafael Souza",
+    "common_name": "Souza",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 30,
+        "passing": 45,
+        "dribbling": 40,
+        "crossing": 63,
+        "tackling": 66,
+        "heading": 40
+      },
+      "physical": {
+        "pace": 63,
+        "acceleration": 63,
+        "stamina": 79,
+        "strength": 45
+      },
+      "mental": {
+        "positioning": 57,
+        "vision": 43,
+        "composure": 58,
+        "work_rate": 65
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 67,
+      "max": 70
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1586,
+      "rounds_remaining": 35,
+      "release_clause": 236314
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-07",
+    "name": "Arthur Pereira",
+    "common_name": "Pereira",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 33,
+        "dribbling": 28,
+        "crossing": 51,
+        "tackling": 48,
+        "heading": 28
+      },
+      "physical": {
+        "pace": 46,
+        "acceleration": 49,
+        "stamina": 79,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 31,
+        "composure": 48,
+        "work_rate": 87
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 46,
+      "max": 53
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1169,
+      "rounds_remaining": 31,
+      "release_clause": 149632
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-08",
+    "name": "Guilherme Freitas",
+    "common_name": "Guilherme",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 21,
+        "passing": 36,
+        "dribbling": 31,
+        "crossing": 26,
+        "tackling": 51,
+        "heading": 31
+      },
+      "physical": {
+        "pace": 38,
+        "acceleration": 51,
+        "stamina": 71,
+        "strength": 51
+      },
+      "mental": {
+        "positioning": 43,
+        "vision": 34,
+        "composure": 52,
+        "work_rate": 62
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 55,
+      "max": 59
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1245,
+      "rounds_remaining": 28,
+      "release_clause": 107070
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-09",
+    "name": "Matheus Nunes",
+    "common_name": "Matheus",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 23,
+        "passing": 54,
+        "dribbling": 33,
+        "crossing": 28,
+        "tackling": 20,
+        "heading": 33
+      },
+      "physical": {
+        "pace": 40,
+        "acceleration": 55,
+        "stamina": 83,
+        "strength": 38
+      },
+      "mental": {
+        "positioning": 53,
+        "vision": 58,
+        "composure": 50,
+        "work_rate": 75
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 61,
+      "max": 65
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1272,
+      "rounds_remaining": 23,
+      "release_clause": 124656
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-10",
+    "name": "Samuel Barbosa",
+    "common_name": "Barbosa",
+    "birth_year": 2008,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 55,
+        "dribbling": 30,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 30
+      },
+      "physical": {
+        "pace": 37,
+        "acceleration": 47,
+        "stamina": 76,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 51,
+        "vision": 54,
+        "composure": 48,
+        "work_rate": 80
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 58,
+      "max": 65
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1249,
+      "rounds_remaining": 36,
+      "release_clause": 166117
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-11",
+    "name": "Leonardo Barbosa",
+    "common_name": "Leonardo",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 55,
+        "passing": 52,
+        "dribbling": 57,
+        "crossing": 27,
+        "tackling": 20,
+        "heading": 32
+      },
+      "physical": {
+        "pace": 39,
+        "acceleration": 56,
+        "stamina": 66,
+        "strength": 37
+      },
+      "mental": {
+        "positioning": 51,
+        "vision": 54,
+        "composure": 50,
+        "work_rate": 68
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 64,
+      "max": 71
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1458,
+      "rounds_remaining": 26,
+      "release_clause": 161838
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-12",
+    "name": "Vinicius Dias",
+    "common_name": "Dias",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 54,
+        "dribbling": 36,
+        "crossing": 55,
+        "tackling": 23,
+        "heading": 36
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 59,
+        "stamina": 86,
+        "strength": 41
+      },
+      "mental": {
+        "positioning": 56,
+        "vision": 39,
+        "composure": 57,
+        "work_rate": 62
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 68
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1375,
+      "rounds_remaining": 41,
+      "release_clause": 122375
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 81,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-13",
+    "name": "Vinicius Cardoso",
+    "common_name": "Cardoso",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 20,
+        "passing": 54,
+        "dribbling": 29,
+        "crossing": 47,
+        "tackling": 20,
+        "heading": 29
+      },
+      "physical": {
+        "pace": 36,
+        "acceleration": 49,
+        "stamina": 77,
+        "strength": 35
+      },
+      "mental": {
+        "positioning": 43,
+        "vision": 32,
+        "composure": 49,
+        "work_rate": 80
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 46,
+      "max": 49
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1240,
+      "rounds_remaining": 38,
+      "release_clause": 143840
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-14",
+    "name": "Danilo Nascimento",
+    "common_name": "Nascimento",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 54,
+        "passing": 35,
+        "dribbling": 50,
+        "crossing": 25,
+        "tackling": 20,
+        "heading": 53
+      },
+      "physical": {
+        "pace": 53,
+        "acceleration": 53,
+        "stamina": 66,
+        "strength": 52
+      },
+      "mental": {
+        "positioning": 43,
+        "vision": 33,
+        "composure": 42,
+        "work_rate": 76
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 47,
+      "max": 54
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1414,
+      "rounds_remaining": 31,
+      "release_clause": 188062
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-15",
+    "name": "Leonardo Martins",
+    "common_name": "Martins",
+    "birth_year": 2005,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 54,
+        "passing": 36,
+        "dribbling": 56,
+        "crossing": 26,
+        "tackling": 20,
+        "heading": 56
+      },
+      "physical": {
+        "pace": 56,
+        "acceleration": 55,
+        "stamina": 70,
+        "strength": 55
+      },
+      "mental": {
+        "positioning": 44,
+        "vision": 34,
+        "composure": 45,
+        "work_rate": 91
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 57,
+      "max": 64
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1313,
+      "rounds_remaining": 19,
+      "release_clause": 195637
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 76,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-juventude-paulista-16",
+    "name": "Matheus Rodrigues",
+    "common_name": "Matheus",
+    "birth_year": 1995,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 59,
+        "passing": 44,
+        "dribbling": 63,
+        "crossing": 34,
+        "tackling": 26,
+        "heading": 59
+      },
+      "physical": {
+        "pace": 57,
+        "acceleration": 59,
+        "stamina": 81,
+        "strength": 65
+      },
+      "mental": {
+        "positioning": 55,
+        "vision": 42,
+        "composure": 51,
+        "work_rate": 90
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 54,
+      "max": 57
+    },
+    "contract": {
+      "club_id": "club-juventude-paulista",
+      "wage_per_round": 1623,
+      "rounds_remaining": 35,
+      "release_clause": 230466
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 75,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

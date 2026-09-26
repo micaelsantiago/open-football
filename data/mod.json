@@ -1,0 +1,15 @@
+{
+  "id": "mod-base-v1",
+  "name": "Open Football Base Universe",
+  "version": "0.1.0",
+  "author": "Open Football Community",
+  "description": "Base de dados canonica com os 8 clubes fundadores e a Liga Inaugural.",
+  "target_engine_version": "0.1.0",
+  "priority": 0,
+  "contents": {
+    "clubs": true,
+    "players": true,
+    "competitions": true,
+    "facilities": true
+  }
+}

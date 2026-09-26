@@ -1,0 +1,68 @@
+{
+  "id": "club-uniao-fc",
+  "name": "União Futebol Clube",
+  "short_name": "União",
+  "nickname": "O Dragão Operário",
+  "founded_year": 1938,
+  "country": "BR",
+  "city": "Vila Velha",
+  "reputation": 49,
+  "colors": {
+    "primary": "#C0392B",
+    "secondary": "#111111",
+    "accent": "#FFFFFF"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-uniao-fc",
+    "training_center_id": ""
+  },
+  "finances": {
+    "balance": 220000,
+    "ticket_price": 18,
+    "season_tickets": 1225,
+    "weekly_sponsor": 7840
+  },
+  "squad": [
+    "player-uniao-fc-01",
+    "player-uniao-fc-02",
+    "player-uniao-fc-03",
+    "player-uniao-fc-04",
+    "player-uniao-fc-05",
+    "player-uniao-fc-06",
+    "player-uniao-fc-07",
+    "player-uniao-fc-08",
+    "player-uniao-fc-09",
+    "player-uniao-fc-10",
+    "player-uniao-fc-11",
+    "player-uniao-fc-12",
+    "player-uniao-fc-13",
+    "player-uniao-fc-14",
+    "player-uniao-fc-15",
+    "player-uniao-fc-16"
+  ],
+  "tactics_preset": {
+    "formation": "4-4-2",
+    "mentality": "DEFENSIVE",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-uniao-fc-01",
+      "player-uniao-fc-02",
+      "player-uniao-fc-03",
+      "player-uniao-fc-04",
+      "player-uniao-fc-05",
+      "player-uniao-fc-06",
+      "player-uniao-fc-07",
+      "player-uniao-fc-08",
+      "player-uniao-fc-09",
+      "player-uniao-fc-10",
+      "player-uniao-fc-11"
+    ],
+    "substitutes": [
+      "player-uniao-fc-12",
+      "player-uniao-fc-13",
+      "player-uniao-fc-14",
+      "player-uniao-fc-15",
+      "player-uniao-fc-16"
+    ]
+  }
+}

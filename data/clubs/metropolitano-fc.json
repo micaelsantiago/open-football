@@ -1,0 +1,68 @@
+{
+  "id": "club-metropolitano-fc",
+  "name": "Metropolitano Futebol Clube",
+  "short_name": "Metropolitano",
+  "nickname": "O Vinho da Capital",
+  "founded_year": 1988,
+  "country": "BR",
+  "city": "Centro",
+  "reputation": 52,
+  "colors": {
+    "primary": "#8E44AD",
+    "secondary": "#F5B041",
+    "accent": "#FFFFFF"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-metropolitano-fc",
+    "training_center_id": ""
+  },
+  "finances": {
+    "balance": 350000,
+    "ticket_price": 22,
+    "season_tickets": 1300,
+    "weekly_sponsor": 8320
+  },
+  "squad": [
+    "player-metropolitano-fc-01",
+    "player-metropolitano-fc-02",
+    "player-metropolitano-fc-03",
+    "player-metropolitano-fc-04",
+    "player-metropolitano-fc-05",
+    "player-metropolitano-fc-06",
+    "player-metropolitano-fc-07",
+    "player-metropolitano-fc-08",
+    "player-metropolitano-fc-09",
+    "player-metropolitano-fc-10",
+    "player-metropolitano-fc-11",
+    "player-metropolitano-fc-12",
+    "player-metropolitano-fc-13",
+    "player-metropolitano-fc-14",
+    "player-metropolitano-fc-15",
+    "player-metropolitano-fc-16"
+  ],
+  "tactics_preset": {
+    "formation": "4-4-2",
+    "mentality": "BALANCED",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-metropolitano-fc-01",
+      "player-metropolitano-fc-02",
+      "player-metropolitano-fc-03",
+      "player-metropolitano-fc-04",
+      "player-metropolitano-fc-05",
+      "player-metropolitano-fc-06",
+      "player-metropolitano-fc-07",
+      "player-metropolitano-fc-08",
+      "player-metropolitano-fc-09",
+      "player-metropolitano-fc-10",
+      "player-metropolitano-fc-11"
+    ],
+    "substitutes": [
+      "player-metropolitano-fc-12",
+      "player-metropolitano-fc-13",
+      "player-metropolitano-fc-14",
+      "player-metropolitano-fc-15",
+      "player-metropolitano-fc-16"
+    ]
+  }
+}

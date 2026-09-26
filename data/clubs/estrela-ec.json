@@ -1,0 +1,68 @@
+{
+  "id": "club-estrela-ec",
+  "name": "Estrela Esporte Clube",
+  "short_name": "Estrela",
+  "nickname": "O Astro Rei",
+  "founded_year": 1912,
+  "country": "BR",
+  "city": "Metrópole",
+  "reputation": 56,
+  "colors": {
+    "primary": "#F1C40F",
+    "secondary": "#2980B9",
+    "accent": "#FFFFFF"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-estrela-ec",
+    "training_center_id": ""
+  },
+  "finances": {
+    "balance": 400000,
+    "ticket_price": 25,
+    "season_tickets": 1400,
+    "weekly_sponsor": 8960
+  },
+  "squad": [
+    "player-estrela-ec-01",
+    "player-estrela-ec-02",
+    "player-estrela-ec-03",
+    "player-estrela-ec-04",
+    "player-estrela-ec-05",
+    "player-estrela-ec-06",
+    "player-estrela-ec-07",
+    "player-estrela-ec-08",
+    "player-estrela-ec-09",
+    "player-estrela-ec-10",
+    "player-estrela-ec-11",
+    "player-estrela-ec-12",
+    "player-estrela-ec-13",
+    "player-estrela-ec-14",
+    "player-estrela-ec-15",
+    "player-estrela-ec-16"
+  ],
+  "tactics_preset": {
+    "formation": "4-3-3",
+    "mentality": "OFFENSIVE",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-estrela-ec-01",
+      "player-estrela-ec-02",
+      "player-estrela-ec-03",
+      "player-estrela-ec-04",
+      "player-estrela-ec-05",
+      "player-estrela-ec-06",
+      "player-estrela-ec-07",
+      "player-estrela-ec-08",
+      "player-estrela-ec-09",
+      "player-estrela-ec-10",
+      "player-estrela-ec-11"
+    ],
+    "substitutes": [
+      "player-estrela-ec-12",
+      "player-estrela-ec-13",
+      "player-estrela-ec-14",
+      "player-estrela-ec-15",
+      "player-estrela-ec-16"
+    ]
+  }
+}

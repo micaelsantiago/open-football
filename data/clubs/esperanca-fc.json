@@ -1,0 +1,68 @@
+{
+  "id": "club-esperanca-fc",
+  "name": "Esperança Futebol Clube",
+  "short_name": "Esperança",
+  "nickname": "O Alviverde",
+  "founded_year": 1975,
+  "country": "BR",
+  "city": "Nova Colina",
+  "reputation": 42,
+  "colors": {
+    "primary": "#27AE60",
+    "secondary": "#FFFFFF",
+    "accent": "#F39C12"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-esperanca-fc",
+    "training_center_id": ""
+  },
+  "finances": {
+    "balance": 180000,
+    "ticket_price": 15,
+    "season_tickets": 1050,
+    "weekly_sponsor": 6720
+  },
+  "squad": [
+    "player-esperanca-fc-01",
+    "player-esperanca-fc-02",
+    "player-esperanca-fc-03",
+    "player-esperanca-fc-04",
+    "player-esperanca-fc-05",
+    "player-esperanca-fc-06",
+    "player-esperanca-fc-07",
+    "player-esperanca-fc-08",
+    "player-esperanca-fc-09",
+    "player-esperanca-fc-10",
+    "player-esperanca-fc-11",
+    "player-esperanca-fc-12",
+    "player-esperanca-fc-13",
+    "player-esperanca-fc-14",
+    "player-esperanca-fc-15",
+    "player-esperanca-fc-16"
+  ],
+  "tactics_preset": {
+    "formation": "4-3-3",
+    "mentality": "OFFENSIVE",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-esperanca-fc-01",
+      "player-esperanca-fc-02",
+      "player-esperanca-fc-03",
+      "player-esperanca-fc-04",
+      "player-esperanca-fc-05",
+      "player-esperanca-fc-06",
+      "player-esperanca-fc-07",
+      "player-esperanca-fc-08",
+      "player-esperanca-fc-09",
+      "player-esperanca-fc-10",
+      "player-esperanca-fc-11"
+    ],
+    "substitutes": [
+      "player-esperanca-fc-12",
+      "player-esperanca-fc-13",
+      "player-esperanca-fc-14",
+      "player-esperanca-fc-15",
+      "player-esperanca-fc-16"
+    ]
+  }
+}

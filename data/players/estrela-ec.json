@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-estrela-ec-01",
+    "name": "Rodrigo Carvalho",
+    "common_name": "Carvalho",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 34,
+        "passing": 49,
+        "dribbling": 44,
+        "crossing": 39,
+        "tackling": 31,
+        "heading": 44
+      },
+      "physical": {
+        "pace": 51,
+        "acceleration": 63,
+        "stamina": 74,
+        "strength": 49
+      },
+      "mental": {
+        "positioning": 56,
+        "vision": 47,
+        "composure": 65,
+        "work_rate": 61
+      },
+      "goalkeeping": {
+        "reflexes": 67,
+        "handling": 67,
+        "aerial": 67
+      }
+    },
+    "potential": {
+      "min": 61,
+      "max": 66
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1637,
+      "rounds_remaining": 36,
+      "release_clause": 171885
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-02",
+    "name": "Guilherme Alves",
+    "common_name": "Guilherme",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 38,
+        "passing": 53,
+        "dribbling": 48,
+        "crossing": 43,
+        "tackling": 35,
+        "heading": 48
+      },
+      "physical": {
+        "pace": 55,
+        "acceleration": 70,
+        "stamina": 67,
+        "strength": 53
+      },
+      "mental": {
+        "positioning": 67,
+        "vision": 51,
+        "composure": 65,
+        "work_rate": 60
+      },
+      "goalkeeping": {
+        "reflexes": 73,
+        "handling": 72,
+        "aerial": 66
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 70
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1685,
+      "rounds_remaining": 27,
+      "release_clause": 212310
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 89,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-03",
+    "name": "Leonardo Machado",
+    "common_name": "Machado",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 29,
+        "passing": 44,
+        "dribbling": 39,
+        "crossing": 34,
+        "tackling": 65,
+        "heading": 61
+      },
+      "physical": {
+        "pace": 46,
+        "acceleration": 61,
+        "stamina": 72,
+        "strength": 59
+      },
+      "mental": {
+        "positioning": 54,
+        "vision": 42,
+        "composure": 58,
+        "work_rate": 75
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 56,
+      "max": 63
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1687,
+      "rounds_remaining": 38,
+      "release_clause": 234493
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 87,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-04",
+    "name": "Vitor Santos",
+    "common_name": "Vitor",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 34,
+        "passing": 49,
+        "dribbling": 44,
+        "crossing": 39,
+        "tackling": 69,
+        "heading": 66
+      },
+      "physical": {
+        "pace": 51,
+        "acceleration": 65,
+        "stamina": 82,
+        "strength": 63
+      },
+      "mental": {
+        "positioning": 63,
+        "vision": 47,
+        "composure": 59,
+        "work_rate": 65
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 60,
+      "max": 66
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1660,
+      "rounds_remaining": 21,
+      "release_clause": 219120
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-05",
+    "name": "Guilherme Cardoso",
+    "common_name": "Guilherme",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 37,
+        "passing": 52,
+        "dribbling": 47,
+        "crossing": 42,
+        "tackling": 73,
+        "heading": 68
+      },
+      "physical": {
+        "pace": 54,
+        "acceleration": 68,
+        "stamina": 86,
+        "strength": 71
+      },
+      "mental": {
+        "positioning": 65,
+        "vision": 50,
+        "composure": 67,
+        "work_rate": 82
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 65,
+      "max": 71
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1644,
+      "rounds_remaining": 27,
+      "release_clause": 246600
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-06",
+    "name": "Arthur Freitas",
+    "common_name": "Freitas",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 31,
+        "passing": 46,
+        "dribbling": 41,
+        "crossing": 58,
+        "tackling": 63,
+        "heading": 41
+      },
+      "physical": {
+        "pace": 62,
+        "acceleration": 61,
+        "stamina": 88,
+        "strength": 46
+      },
+      "mental": {
+        "positioning": 59,
+        "vision": 44,
+        "composure": 57,
+        "work_rate": 78
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 58,
+      "max": 62
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1529,
+      "rounds_remaining": 17,
+      "release_clause": 159016
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-07",
+    "name": "Eduardo Andrade",
+    "common_name": "Eduardo",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 29,
+        "passing": 44,
+        "dribbling": 39,
+        "crossing": 56,
+        "tackling": 63,
+        "heading": 39
+      },
+      "physical": {
+        "pace": 59,
+        "acceleration": 63,
+        "stamina": 68,
+        "strength": 44
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 42,
+        "composure": 60,
+        "work_rate": 78
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 54,
+      "max": 62
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1685,
+      "rounds_remaining": 29,
+      "release_clause": 237585
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 89,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-08",
+    "name": "Vitor Ribeiro",
+    "common_name": "Ribeiro",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 42,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 57,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 56,
+        "stamina": 69,
+        "strength": 60
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 40,
+        "composure": 52,
+        "work_rate": 67
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 55,
+      "max": 58
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1389,
+      "rounds_remaining": 31,
+      "release_clause": 184737
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 82,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-09",
+    "name": "Fernando Mendes",
+    "common_name": "Fernando",
+    "birth_year": 2000,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 41,
+        "passing": 69,
+        "dribbling": 51,
+        "crossing": 46,
+        "tackling": 38,
+        "heading": 51
+      },
+      "physical": {
+        "pace": 58,
+        "acceleration": 69,
+        "stamina": 71,
+        "strength": 56
+      },
+      "mental": {
+        "positioning": 72,
+        "vision": 71,
+        "composure": 67,
+        "work_rate": 65
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 68,
+      "max": 75
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1967,
+      "rounds_remaining": 19,
+      "release_clause": 216370
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-10",
+    "name": "Rafael Costa",
+    "common_name": "Rafael",
+    "birth_year": 2001,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 59,
+        "dribbling": 37,
+        "crossing": 32,
+        "tackling": 24,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 58,
+        "stamina": 87,
+        "strength": 42
+      },
+      "mental": {
+        "positioning": 55,
+        "vision": 56,
+        "composure": 52,
+        "work_rate": 76
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 55,
+      "max": 63
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1596,
+      "rounds_remaining": 39,
+      "release_clause": 167580
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-11",
+    "name": "Rodrigo Almeida",
+    "common_name": "Rodrigo",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 70,
+        "passing": 72,
+        "dribbling": 66,
+        "crossing": 42,
+        "tackling": 34,
+        "heading": 47
+      },
+      "physical": {
+        "pace": 54,
+        "acceleration": 71,
+        "stamina": 87,
+        "strength": 52
+      },
+      "mental": {
+        "positioning": 62,
+        "vision": 71,
+        "composure": 65,
+        "work_rate": 77
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 71,
+      "max": 75
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1672,
+      "rounds_remaining": 30,
+      "release_clause": 249128
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-12",
+    "name": "Wagner Ferreira",
+    "common_name": "Ferreira",
+    "birth_year": 2008,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 36,
+        "passing": 65,
+        "dribbling": 46,
+        "crossing": 64,
+        "tackling": 33,
+        "heading": 46
+      },
+      "physical": {
+        "pace": 53,
+        "acceleration": 63,
+        "stamina": 86,
+        "strength": 51
+      },
+      "mental": {
+        "positioning": 61,
+        "vision": 49,
+        "composure": 67,
+        "work_rate": 62
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 72,
+      "max": 80
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1773,
+      "rounds_remaining": 38,
+      "release_clause": 180846
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-13",
+    "name": "Wagner Fernandes",
+    "common_name": "Fernandes",
+    "birth_year": 1997,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 29,
+        "passing": 62,
+        "dribbling": 39,
+        "crossing": 59,
+        "tackling": 26,
+        "heading": 39
+      },
+      "physical": {
+        "pace": 46,
+        "acceleration": 61,
+        "stamina": 75,
+        "strength": 44
+      },
+      "mental": {
+        "positioning": 60,
+        "vision": 42,
+        "composure": 52,
+        "work_rate": 70
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 57,
+      "max": 65
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1663,
+      "rounds_remaining": 24,
+      "release_clause": 219516
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 90,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-14",
+    "name": "Andre Nunes",
+    "common_name": "Andre",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 70,
+        "passing": 55,
+        "dribbling": 75,
+        "crossing": 45,
+        "tackling": 37,
+        "heading": 74
+      },
+      "physical": {
+        "pace": 76,
+        "acceleration": 67,
+        "stamina": 86,
+        "strength": 77
+      },
+      "mental": {
+        "positioning": 68,
+        "vision": 53,
+        "composure": 68,
+        "work_rate": 63
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 65,
+      "max": 71
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1765,
+      "rounds_remaining": 20,
+      "release_clause": 257690
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 86,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-15",
+    "name": "Joao Mendes",
+    "common_name": "Joao",
+    "birth_year": 2008,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 75,
+        "passing": 54,
+        "dribbling": 73,
+        "crossing": 44,
+        "tackling": 36,
+        "heading": 74
+      },
+      "physical": {
+        "pace": 68,
+        "acceleration": 66,
+        "stamina": 85,
+        "strength": 71
+      },
+      "mental": {
+        "positioning": 62,
+        "vision": 52,
+        "composure": 65,
+        "work_rate": 60
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 72,
+      "max": 77
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1973,
+      "rounds_remaining": 31,
+      "release_clause": 260436
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-estrela-ec-16",
+    "name": "Eduardo Pereira",
+    "common_name": "Pereira",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 71,
+        "passing": 49,
+        "dribbling": 68,
+        "crossing": 39,
+        "tackling": 31,
+        "heading": 66
+      },
+      "physical": {
+        "pace": 68,
+        "acceleration": 68,
+        "stamina": 80,
+        "strength": 66
+      },
+      "mental": {
+        "positioning": 62,
+        "vision": 47,
+        "composure": 64,
+        "work_rate": 69
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 74,
+      "max": 78
+    },
+    "contract": {
+      "club_id": "club-estrela-ec",
+      "wage_per_round": 1807,
+      "rounds_remaining": 26,
+      "release_clause": 187928
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

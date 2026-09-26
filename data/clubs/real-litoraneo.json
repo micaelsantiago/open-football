@@ -1,0 +1,68 @@
+{
+  "id": "club-real-litoraneo",
+  "name": "Real Litorâneo Clube",
+  "short_name": "Real Litoral",
+  "nickname": "O Tubarão da Costa",
+  "founded_year": 1963,
+  "country": "BR",
+  "city": "Praia Azul",
+  "reputation": 46,
+  "colors": {
+    "primary": "#3498DB",
+    "secondary": "#ECF0F1",
+    "accent": "#2C3E50"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-real-litoraneo",
+    "training_center_id": ""
+  },
+  "finances": {
+    "balance": 230000,
+    "ticket_price": 20,
+    "season_tickets": 1150,
+    "weekly_sponsor": 7360
+  },
+  "squad": [
+    "player-real-litoraneo-01",
+    "player-real-litoraneo-02",
+    "player-real-litoraneo-03",
+    "player-real-litoraneo-04",
+    "player-real-litoraneo-05",
+    "player-real-litoraneo-06",
+    "player-real-litoraneo-07",
+    "player-real-litoraneo-08",
+    "player-real-litoraneo-09",
+    "player-real-litoraneo-10",
+    "player-real-litoraneo-11",
+    "player-real-litoraneo-12",
+    "player-real-litoraneo-13",
+    "player-real-litoraneo-14",
+    "player-real-litoraneo-15",
+    "player-real-litoraneo-16"
+  ],
+  "tactics_preset": {
+    "formation": "4-3-3",
+    "mentality": "OFFENSIVE",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-real-litoraneo-01",
+      "player-real-litoraneo-02",
+      "player-real-litoraneo-03",
+      "player-real-litoraneo-04",
+      "player-real-litoraneo-05",
+      "player-real-litoraneo-06",
+      "player-real-litoraneo-07",
+      "player-real-litoraneo-08",
+      "player-real-litoraneo-09",
+      "player-real-litoraneo-10",
+      "player-real-litoraneo-11"
+    ],
+    "substitutes": [
+      "player-real-litoraneo-12",
+      "player-real-litoraneo-13",
+      "player-real-litoraneo-14",
+      "player-real-litoraneo-15",
+      "player-real-litoraneo-16"
+    ]
+  }
+}

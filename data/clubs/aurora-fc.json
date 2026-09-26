@@ -1,0 +1,68 @@
+{
+  "id": "club-aurora-fc",
+  "name": "Futebol Clube Aurora",
+  "short_name": "Aurora",
+  "nickname": "O Alvinegro da Serra",
+  "founded_year": 1924,
+  "country": "BR",
+  "city": "Serra Alta",
+  "reputation": 48,
+  "colors": {
+    "primary": "#1A4B8C",
+    "secondary": "#FFFFFF",
+    "accent": "#F2B705"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-aurora-fc",
+    "training_center_id": "facility-ct-aurora-fc"
+  },
+  "finances": {
+    "balance": 250000,
+    "ticket_price": 20,
+    "season_tickets": 1200,
+    "weekly_sponsor": 7680
+  },
+  "squad": [
+    "player-aurora-fc-01",
+    "player-aurora-fc-02",
+    "player-aurora-fc-03",
+    "player-aurora-fc-04",
+    "player-aurora-fc-05",
+    "player-aurora-fc-06",
+    "player-aurora-fc-07",
+    "player-aurora-fc-08",
+    "player-aurora-fc-09",
+    "player-aurora-fc-10",
+    "player-aurora-fc-11",
+    "player-aurora-fc-12",
+    "player-aurora-fc-13",
+    "player-aurora-fc-14",
+    "player-aurora-fc-15",
+    "player-aurora-fc-16"
+  ],
+  "tactics_preset": {
+    "formation": "4-4-2",
+    "mentality": "BALANCED",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-aurora-fc-01",
+      "player-aurora-fc-02",
+      "player-aurora-fc-03",
+      "player-aurora-fc-04",
+      "player-aurora-fc-05",
+      "player-aurora-fc-06",
+      "player-aurora-fc-07",
+      "player-aurora-fc-08",
+      "player-aurora-fc-09",
+      "player-aurora-fc-10",
+      "player-aurora-fc-11"
+    ],
+    "substitutes": [
+      "player-aurora-fc-12",
+      "player-aurora-fc-13",
+      "player-aurora-fc-14",
+      "player-aurora-fc-15",
+      "player-aurora-fc-16"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "club-atletico-vale",
+  "name": "Atlético Clube do Vale",
+  "short_name": "Atlético Vale",
+  "nickname": "A Muralha do Vale",
+  "founded_year": 1950,
+  "country": "BR",
+  "city": "Vale Verde",
+  "reputation": 44,
+  "colors": {
+    "primary": "#7F8C8D",
+    "secondary": "#E67E22",
+    "accent": "#111111"
+  },
+  "facilities": {
+    "stadium_id": "facility-estadio-atletico-vale",
+    "training_center_id": ""
+  },
+  "finances": {
+    "balance": 190000,
+    "ticket_price": 18,
+    "season_tickets": 1100,
+    "weekly_sponsor": 7040
+  },
+  "squad": [
+    "player-atletico-vale-01",
+    "player-atletico-vale-02",
+    "player-atletico-vale-03",
+    "player-atletico-vale-04",
+    "player-atletico-vale-05",
+    "player-atletico-vale-06",
+    "player-atletico-vale-07",
+    "player-atletico-vale-08",
+    "player-atletico-vale-09",
+    "player-atletico-vale-10",
+    "player-atletico-vale-11",
+    "player-atletico-vale-12",
+    "player-atletico-vale-13",
+    "player-atletico-vale-14",
+    "player-atletico-vale-15",
+    "player-atletico-vale-16"
+  ],
+  "tactics_preset": {
+    "formation": "5-3-2",
+    "mentality": "DEFENSIVE",
+    "aggression": "NORMAL",
+    "starting_eleven": [
+      "player-atletico-vale-01",
+      "player-atletico-vale-02",
+      "player-atletico-vale-03",
+      "player-atletico-vale-04",
+      "player-atletico-vale-05",
+      "player-atletico-vale-06",
+      "player-atletico-vale-07",
+      "player-atletico-vale-08",
+      "player-atletico-vale-09",
+      "player-atletico-vale-10",
+      "player-atletico-vale-11"
+    ],
+    "substitutes": [
+      "player-atletico-vale-12",
+      "player-atletico-vale-13",
+      "player-atletico-vale-14",
+      "player-atletico-vale-15",
+      "player-atletico-vale-16"
+    ]
+  }
+}

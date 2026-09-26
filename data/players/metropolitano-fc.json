@@ -1,0 +1,923 @@
+[
+  {
+    "id": "player-metropolitano-fc-01",
+    "name": "Renan Moreira",
+    "common_name": "Moreira",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 31,
+        "passing": 46,
+        "dribbling": 41,
+        "crossing": 36,
+        "tackling": 28,
+        "heading": 41
+      },
+      "physical": {
+        "pace": 48,
+        "acceleration": 59,
+        "stamina": 85,
+        "strength": 46
+      },
+      "mental": {
+        "positioning": 62,
+        "vision": 44,
+        "composure": 61,
+        "work_rate": 73
+      },
+      "goalkeeping": {
+        "reflexes": 66,
+        "handling": 65,
+        "aerial": 61
+      }
+    },
+    "potential": {
+      "min": 58,
+      "max": 64
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1726,
+      "rounds_remaining": 27,
+      "release_clause": 212298
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 89,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-02",
+    "name": "Murilo Marques",
+    "common_name": "Marques",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "GK",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 33,
+        "passing": 48,
+        "dribbling": 43,
+        "crossing": 38,
+        "tackling": 30,
+        "heading": 43
+      },
+      "physical": {
+        "pace": 50,
+        "acceleration": 62,
+        "stamina": 86,
+        "strength": 48
+      },
+      "mental": {
+        "positioning": 61,
+        "vision": 46,
+        "composure": 56,
+        "work_rate": 65
+      },
+      "goalkeeping": {
+        "reflexes": 63,
+        "handling": 61,
+        "aerial": 66
+      }
+    },
+    "potential": {
+      "min": 68,
+      "max": 74
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1684,
+      "rounds_remaining": 17,
+      "release_clause": 213868
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-03",
+    "name": "Felipe Dias",
+    "common_name": "Dias",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "LB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 32,
+        "passing": 47,
+        "dribbling": 42,
+        "crossing": 37,
+        "tackling": 66,
+        "heading": 64
+      },
+      "physical": {
+        "pace": 49,
+        "acceleration": 64,
+        "stamina": 68,
+        "strength": 69
+      },
+      "mental": {
+        "positioning": 56,
+        "vision": 45,
+        "composure": 56,
+        "work_rate": 90
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 68,
+      "max": 73
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1712,
+      "rounds_remaining": 21,
+      "release_clause": 159216
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 86,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-04",
+    "name": "Henrique Pereira",
+    "common_name": "Pereira",
+    "birth_year": 2003,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "CB",
+      "secondary": [
+        "RB"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 34,
+        "passing": 49,
+        "dribbling": 44,
+        "crossing": 39,
+        "tackling": 64,
+        "heading": 66
+      },
+      "physical": {
+        "pace": 51,
+        "acceleration": 61,
+        "stamina": 70,
+        "strength": 67
+      },
+      "mental": {
+        "positioning": 59,
+        "vision": 47,
+        "composure": 61,
+        "work_rate": 82
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 60,
+      "max": 66
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1839,
+      "rounds_remaining": 14,
+      "release_clause": 189417
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-05",
+    "name": "Murilo Rodrigues",
+    "common_name": "Murilo",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "CB",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 24,
+        "passing": 39,
+        "dribbling": 34,
+        "crossing": 29,
+        "tackling": 61,
+        "heading": 57
+      },
+      "physical": {
+        "pace": 41,
+        "acceleration": 53,
+        "stamina": 76,
+        "strength": 57
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 37,
+        "composure": 55,
+        "work_rate": 65
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 49,
+      "max": 52
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1543,
+      "rounds_remaining": 42,
+      "release_clause": 132698
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-06",
+    "name": "Danilo Souza",
+    "common_name": "Souza",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "LB",
+      "secondary": [
+        "LM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 32,
+        "passing": 47,
+        "dribbling": 42,
+        "crossing": 62,
+        "tackling": 66,
+        "heading": 42
+      },
+      "physical": {
+        "pace": 63,
+        "acceleration": 67,
+        "stamina": 68,
+        "strength": 47
+      },
+      "mental": {
+        "positioning": 58,
+        "vision": 45,
+        "composure": 60,
+        "work_rate": 67
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 66,
+      "max": 72
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1713,
+      "rounds_remaining": 23,
+      "release_clause": 243246
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-07",
+    "name": "Matheus Almeida",
+    "common_name": "Matheus",
+    "birth_year": 1997,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "RB",
+      "secondary": [
+        "RM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 28,
+        "passing": 43,
+        "dribbling": 38,
+        "crossing": 61,
+        "tackling": 60,
+        "heading": 38
+      },
+      "physical": {
+        "pace": 60,
+        "acceleration": 59,
+        "stamina": 75,
+        "strength": 43
+      },
+      "mental": {
+        "positioning": 50,
+        "vision": 41,
+        "composure": 50,
+        "work_rate": 91
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 56
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1488,
+      "rounds_remaining": 37,
+      "release_clause": 200880
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 80,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-08",
+    "name": "Diego Moreira",
+    "common_name": "Moreira",
+    "birth_year": 1993,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "DM",
+      "secondary": [
+        "CM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 30,
+        "passing": 45,
+        "dribbling": 40,
+        "crossing": 35,
+        "tackling": 61,
+        "heading": 40
+      },
+      "physical": {
+        "pace": 47,
+        "acceleration": 63,
+        "stamina": 88,
+        "strength": 59
+      },
+      "mental": {
+        "positioning": 57,
+        "vision": 43,
+        "composure": 52,
+        "work_rate": 89
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 56,
+      "max": 63
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1726,
+      "rounds_remaining": 16,
+      "release_clause": 207120
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 88,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-09",
+    "name": "Murilo Marques",
+    "common_name": "Murilo",
+    "birth_year": 2007,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "DM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 26,
+        "passing": 61,
+        "dribbling": 36,
+        "crossing": 31,
+        "tackling": 23,
+        "heading": 36
+      },
+      "physical": {
+        "pace": 43,
+        "acceleration": 58,
+        "stamina": 67,
+        "strength": 41
+      },
+      "mental": {
+        "positioning": 53,
+        "vision": 61,
+        "composure": 49,
+        "work_rate": 75
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 62,
+      "max": 65
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1494,
+      "rounds_remaining": 27,
+      "release_clause": 195714
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 77,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-10",
+    "name": "Murilo Barbosa",
+    "common_name": "Murilo",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "CM",
+      "secondary": [
+        "AM"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 33,
+        "passing": 64,
+        "dribbling": 43,
+        "crossing": 38,
+        "tackling": 30,
+        "heading": 43
+      },
+      "physical": {
+        "pace": 50,
+        "acceleration": 65,
+        "stamina": 76,
+        "strength": 48
+      },
+      "mental": {
+        "positioning": 64,
+        "vision": 68,
+        "composure": 57,
+        "work_rate": 75
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 59,
+      "max": 64
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1610,
+      "rounds_remaining": 17,
+      "release_clause": 157780
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 83,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-11",
+    "name": "Caio Ribeiro",
+    "common_name": "Caio",
+    "birth_year": 2006,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "AM",
+      "secondary": [
+        "CM",
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 67,
+        "passing": 66,
+        "dribbling": 65,
+        "crossing": 36,
+        "tackling": 28,
+        "heading": 41
+      },
+      "physical": {
+        "pace": 48,
+        "acceleration": 63,
+        "stamina": 85,
+        "strength": 46
+      },
+      "mental": {
+        "positioning": 57,
+        "vision": 61,
+        "composure": 60,
+        "work_rate": 64
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 73,
+      "max": 81
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1506,
+      "rounds_remaining": 29,
+      "release_clause": 204816
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 84,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-12",
+    "name": "Marcos Souza",
+    "common_name": "Souza",
+    "birth_year": 1998,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "LM",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 60,
+        "dribbling": 37,
+        "crossing": 60,
+        "tackling": 24,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 58,
+        "stamina": 67,
+        "strength": 42
+      },
+      "mental": {
+        "positioning": 58,
+        "vision": 40,
+        "composure": 50,
+        "work_rate": 92
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 52,
+      "max": 57
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1592,
+      "rounds_remaining": 26,
+      "release_clause": 221288
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 76,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-13",
+    "name": "Wagner Martins",
+    "common_name": "Martins",
+    "birth_year": 1997,
+    "nationality": "BR",
+    "preferred_foot": "L",
+    "positions": {
+      "primary": "RM",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 27,
+        "passing": 56,
+        "dribbling": 37,
+        "crossing": 60,
+        "tackling": 24,
+        "heading": 37
+      },
+      "physical": {
+        "pace": 44,
+        "acceleration": 59,
+        "stamina": 87,
+        "strength": 42
+      },
+      "mental": {
+        "positioning": 49,
+        "vision": 40,
+        "composure": 57,
+        "work_rate": 71
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 55,
+      "max": 62
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1433,
+      "rounds_remaining": 15,
+      "release_clause": 159063
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 89,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-14",
+    "name": "Wagner Costa",
+    "common_name": "Costa",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "Both",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "LW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 56,
+        "passing": 42,
+        "dribbling": 62,
+        "crossing": 32,
+        "tackling": 24,
+        "heading": 60
+      },
+      "physical": {
+        "pace": 56,
+        "acceleration": 59,
+        "stamina": 68,
+        "strength": 64
+      },
+      "mental": {
+        "positioning": 58,
+        "vision": 40,
+        "composure": 55,
+        "work_rate": 78
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 54,
+      "max": 60
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1565,
+      "rounds_remaining": 22,
+      "release_clause": 154935
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 85,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-15",
+    "name": "Bruno Gomes",
+    "common_name": "Bruno",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": [
+        "RW"
+      ]
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 69,
+        "passing": 51,
+        "dribbling": 69,
+        "crossing": 41,
+        "tackling": 33,
+        "heading": 70
+      },
+      "physical": {
+        "pace": 69,
+        "acceleration": 65,
+        "stamina": 86,
+        "strength": 73
+      },
+      "mental": {
+        "positioning": 58,
+        "vision": 49,
+        "composure": 64,
+        "work_rate": 92
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 63,
+      "max": 71
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1808,
+      "rounds_remaining": 25,
+      "release_clause": 148256
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 86,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  },
+  {
+    "id": "player-metropolitano-fc-16",
+    "name": "Alex Ribeiro",
+    "common_name": "Ribeiro",
+    "birth_year": 2002,
+    "nationality": "BR",
+    "preferred_foot": "R",
+    "positions": {
+      "primary": "ST",
+      "secondary": []
+    },
+    "attributes": {
+      "technical": {
+        "finishing": 55,
+        "passing": 40,
+        "dribbling": 56,
+        "crossing": 30,
+        "tackling": 22,
+        "heading": 54
+      },
+      "physical": {
+        "pace": 61,
+        "acceleration": 60,
+        "stamina": 88,
+        "strength": 62
+      },
+      "mental": {
+        "positioning": 46,
+        "vision": 38,
+        "composure": 52,
+        "work_rate": 68
+      },
+      "goalkeeping": {
+        "reflexes": 10,
+        "handling": 10,
+        "aerial": 10
+      }
+    },
+    "potential": {
+      "min": 53,
+      "max": 57
+    },
+    "contract": {
+      "club_id": "club-metropolitano-fc",
+      "wage_per_round": 1415,
+      "rounds_remaining": 33,
+      "release_clause": 181120
+    },
+    "status": {
+      "condition": 100.0,
+      "morale": 79,
+      "injured_rounds_remaining": 0,
+      "yellow_cards": 0,
+      "is_suspended": false
+    }
+  }
+]

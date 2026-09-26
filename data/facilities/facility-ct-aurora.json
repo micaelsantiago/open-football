@@ -1,0 +1,42 @@
+{
+  "id": "facility-ct-aurora",
+  "club_id": "club-aurora-fc",
+  "type": "TRAINING_CENTER",
+  "name": "Centro de Treinamento da Serra",
+  "world_position": {
+    "grid_x": 6,
+    "grid_y": 14
+  },
+  "current_level": 1,
+  "levels": [
+    {
+      "level": 1,
+      "name": "Campo Rústico de Terra/Grama",
+      "maintenance_cost_per_round": 800,
+      "upgrade_cost": 0,
+      "construction_time_rounds": 0,
+      "visual": {
+        "footprint_width": 3,
+        "footprint_height": 3,
+        "texture_path": "assets/world/buildings/ct_lvl1.png"
+      }
+    },
+    {
+      "level": 2,
+      "name": "CT com Iluminação e Academia",
+      "maintenance_cost_per_round": 2200,
+      "upgrade_cost": 80000,
+      "construction_time_rounds": 3,
+      "visual": {
+        "footprint_width": 3,
+        "footprint_height": 3,
+        "texture_path": "assets/world/buildings/ct_lvl2.png"
+      }
+    }
+  ],
+  "construction_state": {
+    "is_under_construction": false,
+    "target_level": 1,
+    "rounds_remaining": 0
+  }
+}
