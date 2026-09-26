@@ -2,6 +2,7 @@ extends SceneTree
 
 const TestDataLoader = preload("res://tests/unit/test_data_loader.gd")
 const TestDomainState = preload("res://tests/unit/test_domain_state.gd")
+const TestMatchEngine = preload("res://tests/unit/test_match_engine.gd")
 
 func _init() -> void:
 	print("=========================================")
@@ -11,6 +12,7 @@ func _init() -> void:
 	var success := true
 	success = TestDataLoader.run_all_tests() and success
 	success = TestDomainState.run_all_tests() and success
+	success = TestMatchEngine.run_all_tests() and success
 	
 	if success:
 		print("[SUCCESS] TODOS OS TESTES PASSARAM COM EXCELENCIA!")
