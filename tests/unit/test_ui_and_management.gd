@@ -12,6 +12,8 @@ const ActionModalClass = preload("res://src/presentation/ui/common/action_modal.
 const SquadViewClass = preload("res://src/presentation/ui/squad/squad_view.gd")
 const FinancesViewClass = preload("res://src/presentation/ui/finances/finances_view.gd")
 const CreateClubWizardClass = preload("res://src/presentation/ui/create_club/create_club_wizard.gd")
+const ClubDashboardViewClass = preload("res://src/presentation/ui/dashboard/club_dashboard_view.gd")
+const AppControllerClass = preload("res://src/presentation/app_controller.gd")
 
 static func run_all_tests() -> bool:
 	print("\n=== [TEST SUITE] TestUIAndManagement ===")
@@ -24,6 +26,7 @@ static func run_all_tests() -> bool:
 	all_passed = test_squad_view_tactics() and all_passed
 	all_passed = test_finances_view_ticket_pricing() and all_passed
 	all_passed = test_create_club_wizard() and all_passed
+	all_passed = test_club_dashboard_and_fixed_navigation() and all_passed
 	
 	if all_passed:
 		print("=== [TEST SUITE] TestUIAndManagement: TODOS OS TESTES PASSARAM! ===\n")
@@ -206,4 +209,68 @@ static func test_create_club_wizard() -> bool:
 	
 	wizard.queue_free()
 	print("[PASS] test_create_club_wizard: Assistente de criacao de clube (Dois Caminhos + Live Preview) validado com sucesso")
+	return true
+
+static func test_club_dashboard_and_fixed_navigation() -> bool:
+	var db = DataLoader.load_database("res://data")
+	var state = GameStateClass.create_from_database(db, "club-aurora-fc", 50)
+	
+	# 1. Teste isolado do ClubDashboardView
+	var dash = ClubDashboardViewClass.new()
+	dash.setup(state)
+	
+	assert(dash._club_name_lbl.text == "Futebol Clube Aurora", "Nome do clube no dashboard incorreto")
+	assert(dash._position_lbl.text.contains("Lugar"), "Posicao inicial no dashboard incorreta")
+	assert(dash._balance_lbl.text.contains("250000"), "Saldo inicial no dashboard incorreto")
+	assert(dash._mentality_lbl.text.contains("BALANCED"), "Postura tática inicial incorreta")
+	assert(dash._stadium_name_lbl.text == "Estádio das Colinas", "Nome do estádio no dashboard incorreto")
+	assert(dash._stadium_capacity_lbl.text.contains("3000"), "Capacidade do estádio incorreta")
+	
+	var nav_target := { "val": "" }
+	dash.navigate_requested.connect(func(t: String): nav_target["val"] = t)
+	dash._goto_finances_btn.pressed.emit()
+	assert(nav_target["val"] == "finances", "Navegação para finanças via dashboard falhou")
+	
+	dash._goto_squad_btn.pressed.emit()
+	assert(nav_target["val"] == "squad", "Navegação para elenco via dashboard falhou")
+	
+	var play_hit := { "val": false }
+	dash.play_round_requested.connect(func(): play_hit["val"] = true)
+	dash._play_round_btn.pressed.emit()
+	assert(play_hit["val"], "Sinal play_round_requested nao emitido pelo dashboard")
+	dash.queue_free()
+	
+	# 2. Teste do Menu Fixo e Alternância de Telas Dedicadas no AppController
+	var app = AppControllerClass.new()
+	app._build_ui()
+	app._on_new_career_requested()
+	app._on_career_started("club-aurora-fc")
+	
+	# Menu fixo sempre visível em jogo
+	assert(app.hud_panel.visible, "Menu Fixo (hud_panel) deve estar visível")
+	assert(app.current_in_game_view == "dashboard", "Tela inicial em jogo deve ser o dashboard")
+	assert(app.club_dashboard_view.visible, "ClubDashboardView deve estar visível como tela principal")
+	assert(not app.squad_view.visible, "SquadView deve iniciar oculta")
+	assert(not app.finances_view.visible, "FinancesView deve iniciar oculta")
+	assert(not app.standings_view.visible, "StandingsView deve iniciar oculta")
+	
+	# Navega para Finanças
+	app._switch_in_game_view("finances")
+	assert(app.current_in_game_view == "finances", "current_in_game_view deve ser finances")
+	assert(app.finances_view.visible, "FinancesView deve estar visível")
+	assert(not app.club_dashboard_view.visible, "ClubDashboardView deve estar oculta")
+	
+	# Navega para Elenco
+	app._switch_in_game_view("squad")
+	assert(app.current_in_game_view == "squad", "current_in_game_view deve ser squad")
+	assert(app.squad_view.visible, "SquadView deve estar visível")
+	assert(not app.finances_view.visible, "FinancesView deve estar oculta")
+	
+	# Retorna ao Dashboard via botão fechar da tela
+	app.squad_view.closed.emit()
+	assert(app.current_in_game_view == "dashboard", "Deve retornar ao dashboard ao fechar elenco")
+	assert(app.club_dashboard_view.visible, "ClubDashboardView deve voltar a ficar visível")
+	
+	app.queue_free()
+	print("[PASS] test_club_dashboard_and_fixed_navigation: Painel do clube e menu fixo validados com sucesso")
 	return true

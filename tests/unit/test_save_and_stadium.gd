@@ -199,6 +199,7 @@ static func test_camera_zoom_scope_validation() -> bool:
 	# 2. Ao acessar a tela da sede (estadio e campo):
 	app._on_new_career_requested()
 	app._on_career_started("club-aurora-fc")
+	app._switch_in_game_view("world")
 	
 	assert(app.world_view.visible, "WorldView deve estar visivel apos iniciar carreira")
 	assert(app.is_world_active(), "is_world_active deve ser verdadeiro ao acessar o mapa do estadio")
@@ -208,18 +209,18 @@ static func test_camera_zoom_scope_validation() -> bool:
 	app.world_view.camera._unhandled_input(zoom_event)
 	assert(app.world_view.camera._target_zoom > initial_zoom, "Zoom DEVE funcionar ao acessar a tela do estadio e campo")
 	
-	# 3. Ao abrir uma tela modal (ex: Elenco/Taticas):
+	# 3. Ao abrir uma tela dedicada (ex: Elenco/Taticas):
 	var active_zoom = app.world_view.camera._target_zoom
 	app._on_squad_button_pressed()
 	assert(not app.is_world_active(), "is_world_active deve ser falso com tela de elenco aberta")
-	assert(not app.world_view.camera.controls_enabled, "Controles da camera devem ser suspensos com modal aberta")
+	assert(not app.world_view.camera.controls_enabled, "Controles da camera devem ser suspensos com tela aberta")
 	
 	app.world_view.camera._unhandled_input(zoom_event)
-	assert(is_equal_approx(app.world_view.camera._target_zoom, active_zoom), "Zoom NAO deve sofrer alteracao enquanto modal estiver aberta")
+	assert(is_equal_approx(app.world_view.camera._target_zoom, active_zoom), "Zoom NAO deve sofrer alteracao enquanto tela dedicada estiver aberta")
 	
-	# Ao fechar a modal do elenco:
-	app.squad_view.closed.emit()
-	assert(app.is_world_active(), "is_world_active deve voltar a ser verdadeiro ao fechar modal")
+	# Ao voltar para a sede:
+	app._switch_in_game_view("world")
+	assert(app.is_world_active(), "is_world_active deve voltar a ser verdadeiro ao voltar para a sede")
 	assert(app.world_view.camera.controls_enabled, "controls_enabled deve voltar a ser verdadeiro")
 	
 	app.queue_free()
