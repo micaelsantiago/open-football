@@ -160,9 +160,23 @@ func _build_ui() -> void:
 	
 	# 4. Telas Iniciais (Menu e Wizard)
 	create_club_wizard = CreateClubWizardClass.new()
+	create_club_wizard.anchor_left = 0.0
+	create_club_wizard.anchor_top = 0.0
+	create_club_wizard.anchor_right = 1.0
+	create_club_wizard.anchor_bottom = 1.0
+	create_club_wizard.offset_left = 0.0
+	create_club_wizard.offset_top = 0.0
+	create_club_wizard.offset_right = 0.0
+	create_club_wizard.offset_bottom = 0.0
+	create_club_wizard.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	create_club_wizard.grow_vertical = Control.GROW_DIRECTION_BOTH
 	create_club_wizard.visible = false
 	add_child(create_club_wizard)
 	create_club_wizard.club_confirmed.connect(_on_career_started)
+	create_club_wizard.back_requested.connect(func():
+		create_club_wizard.visible = false
+		show_main_menu()
+	)
 	
 	main_menu = MainMenuClass.new()
 	main_menu.anchor_left = 0.0
