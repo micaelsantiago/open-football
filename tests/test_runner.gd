@@ -5,6 +5,7 @@ const TestDomainState = preload("res://tests/unit/test_domain_state.gd")
 const TestMatchEngine = preload("res://tests/unit/test_match_engine.gd")
 const TestIsometricGrid = preload("res://tests/unit/test_isometric_grid.gd")
 const TestUIAndManagement = preload("res://tests/unit/test_ui_and_management.gd")
+const TestMatchPresentationAndStandings = preload("res://tests/unit/test_match_presentation_and_standings.gd")
 
 func _init() -> void:
 	print("=========================================")
@@ -17,6 +18,7 @@ func _init() -> void:
 	success = TestMatchEngine.run_all_tests() and success
 	success = TestIsometricGrid.run_all_tests() and success
 	success = TestUIAndManagement.run_all_tests() and success
+	success = TestMatchPresentationAndStandings.run_all_tests() and success
 	
 	if success:
 		print("[SUCCESS] TODOS OS TESTES PASSARAM COM EXCELENCIA!")
