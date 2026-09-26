@@ -6,6 +6,7 @@ const ClubDataClass = preload("res://src/core/club/club_data.gd")
 const FacilityDataClass = preload("res://src/core/facility/facility_data.gd")
 const PlayerDataClass = preload("res://src/core/player/player_data.gd")
 const CompetitionDataClass = preload("res://src/core/competition/competition_data.gd")
+const MatchSimulationClass = preload("res://src/core/match/match_simulation.gd")
 
 enum RoundPhase {
 	PRE_MATCH = 0,
@@ -201,18 +202,16 @@ func simulate_full_round(fixtures_results: Array[Dictionary] = []) -> Dictionary
 	if not fixtures_results.is_empty():
 		results_to_apply = fixtures_results
 	else:
-		# Se nao foram passados resultados explicitos, gera placares simples usando RNG deterministico
+		# Se nao foram passados resultados explicitos, simula com o motor matematico MatchSimulation
 		for fix in fixtures:
 			var h_id = str(fix.get("home", ""))
 			var a_id = str(fix.get("away", ""))
-			var match_rng = game_state.create_match_rng("%s_vs_%s" % [h_id, a_id], game_state.current_round)
-			var h_g = match_rng.randi_range(0, 3)
-			var a_g = match_rng.randi_range(0, 2)
+			var sim_res = MatchSimulationClass.run_instant(game_state, h_id, a_id, "%s_vs_%s" % [h_id, a_id], game_state.current_round)
 			results_to_apply.append({
 				"home": h_id,
 				"away": a_id,
-				"home_goals": h_g,
-				"away_goals": a_g
+				"home_goals": sim_res["home_score"],
+				"away_goals": sim_res["away_score"]
 			})
 			
 	record_round_results(results_to_apply)
