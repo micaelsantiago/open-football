@@ -16,33 +16,61 @@ var _subs_container: VBoxContainer
 var _save_btn: Button
 
 func _ready() -> void:
+	_ensure_full_rect()
 	_build_ui_structure()
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_ENTER_TREE:
+		_ensure_full_rect()
+
+func _ensure_full_rect() -> void:
+	anchor_left = 0.0
+	anchor_top = 0.0
+	anchor_right = 1.0
+	anchor_bottom = 1.0
+	offset_left = 0.0
+	offset_top = 52.0
+	offset_right = 0.0
+	offset_bottom = 0.0
+	grow_horizontal = Control.GROW_DIRECTION_BOTH
+	grow_vertical = Control.GROW_DIRECTION_BOTH
 
 func _build_ui_structure() -> void:
 	if _mentality_option != null:
 		return
 		
-	set_anchors_preset(Control.PRESET_FULL_RECT)
+	_ensure_full_rect()
 	
 	var main_panel = PanelContainer.new()
 	main_panel.set_anchors_preset(Control.PRESET_FULL_RECT)
+	var st = StyleBoxFlat.new()
+	st.bg_color = Color(0.07, 0.09, 0.13)
+	st.content_margin_left = 24
+	st.content_margin_right = 24
+	st.content_margin_top = 16
+	st.content_margin_bottom = 20
+	main_panel.add_theme_stylebox_override("panel", st)
 	add_child(main_panel)
 	
 	var main_vbox = VBoxContainer.new()
+	main_vbox.add_theme_constant_override("separation", 12)
 	main_panel.add_child(main_vbox)
 	
 	# Top bar
 	var top_bar = HBoxContainer.new()
+	top_bar.add_theme_constant_override("separation", 10)
 	main_vbox.add_child(top_bar)
 	
 	var title = Label.new()
-	title.text = "Escalação e Táticas do Clube"
+	title.text = "📋 ESCALAÇÃO & POSTURA TÁTICA"
 	title.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	title.add_theme_font_size_override("font_size", 18)
+	title.add_theme_color_override("font_color", Color("#F8FAFC"))
 	top_bar.add_child(title)
 	
 	var ment_label = Label.new()
 	ment_label.text = "Postura Tática: "
+	ment_label.add_theme_color_override("font_color", Color("#94A3B8"))
 	top_bar.add_child(ment_label)
 	
 	_mentality_option = OptionButton.new()
@@ -52,12 +80,34 @@ func _build_ui_structure() -> void:
 	top_bar.add_child(_mentality_option)
 	
 	_save_btn = Button.new()
-	_save_btn.text = "Salvar Táticas"
+	_save_btn.text = "💾 Salvar Táticas"
+	var save_st = StyleBoxFlat.new()
+	save_st.bg_color = Color("#2563EB")
+	save_st.corner_radius_top_left = 6
+	save_st.corner_radius_top_right = 6
+	save_st.corner_radius_bottom_left = 6
+	save_st.corner_radius_bottom_right = 6
+	save_st.content_margin_left = 14
+	save_st.content_margin_right = 14
+	save_st.content_margin_top = 6
+	save_st.content_margin_bottom = 6
+	_save_btn.add_theme_stylebox_override("normal", save_st)
 	_save_btn.pressed.connect(_on_save_pressed)
 	top_bar.add_child(_save_btn)
 	
 	var close_btn = Button.new()
-	close_btn.text = " ✖ Voltar "
+	close_btn.text = " ✖ Voltar ao Painel "
+	var close_st = StyleBoxFlat.new()
+	close_st.bg_color = Color("#1E293B")
+	close_st.corner_radius_top_left = 6
+	close_st.corner_radius_top_right = 6
+	close_st.corner_radius_bottom_left = 6
+	close_st.corner_radius_bottom_right = 6
+	close_st.content_margin_left = 14
+	close_st.content_margin_right = 14
+	close_st.content_margin_top = 6
+	close_st.content_margin_bottom = 6
+	close_btn.add_theme_stylebox_override("normal", close_st)
 	close_btn.pressed.connect(func():
 		visible = false
 		closed.emit()

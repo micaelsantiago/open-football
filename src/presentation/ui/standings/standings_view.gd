@@ -14,29 +14,56 @@ var _data_table: DataTable
 var _leader_label: Label
 
 func _ready() -> void:
+	_ensure_full_rect()
 	_build_ui_structure()
 	EventBusClass.get_instance().match_ended.connect(func(_res): refresh())
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_ENTER_TREE:
+		_ensure_full_rect()
+
+func _ensure_full_rect() -> void:
+	anchor_left = 0.0
+	anchor_top = 0.0
+	anchor_right = 1.0
+	anchor_bottom = 1.0
+	offset_left = 0.0
+	offset_top = 52.0
+	offset_right = 0.0
+	offset_bottom = 0.0
+	grow_horizontal = Control.GROW_DIRECTION_BOTH
+	grow_vertical = Control.GROW_DIRECTION_BOTH
 
 func _build_ui_structure() -> void:
 	if _data_table != null:
 		return
 		
-	set_anchors_preset(Control.PRESET_FULL_RECT)
+	_ensure_full_rect()
 	
 	var main_panel = PanelContainer.new()
 	main_panel.set_anchors_preset(Control.PRESET_FULL_RECT)
+	var st = StyleBoxFlat.new()
+	st.bg_color = Color(0.07, 0.09, 0.13)
+	st.content_margin_left = 24
+	st.content_margin_right = 24
+	st.content_margin_top = 16
+	st.content_margin_bottom = 20
+	main_panel.add_theme_stylebox_override("panel", st)
 	add_child(main_panel)
 	
 	var vbox = VBoxContainer.new()
+	vbox.add_theme_constant_override("separation", 14)
 	main_panel.add_child(vbox)
 	
 	var top_hbox = HBoxContainer.new()
+	top_hbox.add_theme_constant_override("separation", 10)
 	vbox.add_child(top_hbox)
 	
 	_title_label = Label.new()
-	_title_label.text = "Tabela de Classificação"
+	_title_label.text = "📊 TABELA DE CLASSIFICAÇÃO"
 	_title_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_title_label.add_theme_font_size_override("font_size", 18)
+	_title_label.add_theme_color_override("font_color", Color("#F8FAFC"))
 	top_hbox.add_child(_title_label)
 	
 	_leader_label = Label.new()
@@ -45,7 +72,18 @@ func _build_ui_structure() -> void:
 	top_hbox.add_child(_leader_label)
 	
 	var close_btn = Button.new()
-	close_btn.text = " ✖ Fechar "
+	close_btn.text = " ✖ Voltar ao Painel "
+	var close_st = StyleBoxFlat.new()
+	close_st.bg_color = Color("#1E293B")
+	close_st.corner_radius_top_left = 6
+	close_st.corner_radius_top_right = 6
+	close_st.corner_radius_bottom_left = 6
+	close_st.corner_radius_bottom_right = 6
+	close_st.content_margin_left = 14
+	close_st.content_margin_right = 14
+	close_st.content_margin_top = 6
+	close_st.content_margin_bottom = 6
+	close_btn.add_theme_stylebox_override("normal", close_st)
 	close_btn.pressed.connect(func():
 		visible = false
 		closed.emit()

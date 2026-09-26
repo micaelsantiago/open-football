@@ -17,32 +17,70 @@ var _ticket_value_label: Label
 var _save_btn: Button
 
 func _ready() -> void:
+	_ensure_full_rect()
 	_build_ui_structure()
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_ENTER_TREE:
+		_ensure_full_rect()
+
+func _ensure_full_rect() -> void:
+	anchor_left = 0.0
+	anchor_top = 0.0
+	anchor_right = 1.0
+	anchor_bottom = 1.0
+	offset_left = 0.0
+	offset_top = 52.0
+	offset_right = 0.0
+	offset_bottom = 0.0
+	grow_horizontal = Control.GROW_DIRECTION_BOTH
+	grow_vertical = Control.GROW_DIRECTION_BOTH
 
 func _build_ui_structure() -> void:
 	if _balance_label != null:
 		return
 		
-	set_anchors_preset(Control.PRESET_FULL_RECT)
+	_ensure_full_rect()
 	
 	var main_panel = PanelContainer.new()
 	main_panel.set_anchors_preset(Control.PRESET_FULL_RECT)
+	var st = StyleBoxFlat.new()
+	st.bg_color = Color(0.07, 0.09, 0.13)
+	st.content_margin_left = 24
+	st.content_margin_right = 24
+	st.content_margin_top = 16
+	st.content_margin_bottom = 20
+	main_panel.add_theme_stylebox_override("panel", st)
 	add_child(main_panel)
 	
 	var vbox = VBoxContainer.new()
+	vbox.add_theme_constant_override("separation", 16)
 	main_panel.add_child(vbox)
 	
 	var top_bar = HBoxContainer.new()
+	top_bar.add_theme_constant_override("separation", 10)
 	vbox.add_child(top_bar)
 	
 	var title = Label.new()
-	title.text = "Balanço Financeiro e Preço do Ingresso"
+	title.text = "💰 BALANÇO FINANCEIRO & BILHETERIA"
 	title.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	title.add_theme_font_size_override("font_size", 18)
+	title.add_theme_color_override("font_color", Color("#F8FAFC"))
 	top_bar.add_child(title)
 	
 	var close_btn = Button.new()
-	close_btn.text = " ✖ Voltar "
+	close_btn.text = " ✖ Voltar ao Painel "
+	var close_st = StyleBoxFlat.new()
+	close_st.bg_color = Color("#1E293B")
+	close_st.corner_radius_top_left = 6
+	close_st.corner_radius_top_right = 6
+	close_st.corner_radius_bottom_left = 6
+	close_st.corner_radius_bottom_right = 6
+	close_st.content_margin_left = 14
+	close_st.content_margin_right = 14
+	close_st.content_margin_top = 6
+	close_st.content_margin_bottom = 6
+	close_btn.add_theme_stylebox_override("normal", close_st)
 	close_btn.pressed.connect(func():
 		visible = false
 		closed.emit()
@@ -120,7 +158,15 @@ func _build_ui_structure() -> void:
 	vbox.add_child(HSeparator.new())
 	
 	_save_btn = Button.new()
-	_save_btn.text = "Salvar Ajustes Financeiros"
+	_save_btn.text = "💾 Salvar Ajustes Financeiros"
+	_save_btn.custom_minimum_size = Vector2(220, 36)
+	var save_st = StyleBoxFlat.new()
+	save_st.bg_color = Color("#2563EB")
+	save_st.corner_radius_top_left = 6
+	save_st.corner_radius_top_right = 6
+	save_st.corner_radius_bottom_left = 6
+	save_st.corner_radius_bottom_right = 6
+	_save_btn.add_theme_stylebox_override("normal", save_st)
 	_save_btn.pressed.connect(_on_save_pressed)
 	vbox.add_child(_save_btn)
 
