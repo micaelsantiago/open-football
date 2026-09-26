@@ -9,13 +9,27 @@ const IsometricGridHelperClass = preload("res://src/presentation/world_2d/grid/i
 @export var max_zoom: float = 2.5
 @export var zoom_smoothness: float = 8.0
 
+## Define se os controles de zoom e pan pelo usuario estao ativos
+@export var controls_enabled: bool = false
+
 var _is_panning: bool = false
 var _target_zoom: float = 1.0
 
 func _ready() -> void:
 	_target_zoom = zoom.x
+	if not controls_enabled or not is_camera_visible():
+		enabled = false
+
+func is_camera_visible() -> bool:
+	if is_inside_tree():
+		return is_visible_in_tree()
+	return is_visible()
 
 func _process(delta: float) -> void:
+	if not is_controls_active():
+		_is_panning = false
+		return
+
 	# Movimentacao continua por teclado (WASD / Setas)
 	var move_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	if move_dir != Vector2.ZERO:
@@ -27,6 +41,10 @@ func _process(delta: float) -> void:
 		zoom = Vector2(new_z, new_z)
 
 func _unhandled_input(event: InputEvent) -> void:
+	if not is_controls_active():
+		_is_panning = false
+		return
+
 	if event is InputEventMouseButton:
 		var mb := event as InputEventMouseButton
 		# Pan com botao direito ou botao do meio do mouse
@@ -42,6 +60,17 @@ func _unhandled_input(event: InputEvent) -> void:
 	elif event is InputEventMouseMotion and _is_panning:
 		var mm := event as InputEventMouseMotion
 		position -= mm.relative / maxf(0.01, zoom.x)
+
+## Verifica se os controles de camera estao efetivamente ativos e autorizados
+func is_controls_active() -> bool:
+	return controls_enabled and enabled and is_camera_visible()
+
+## Ativa ou desativa os controles interativos da camera
+func set_controls_enabled(p_enabled: bool) -> void:
+	controls_enabled = p_enabled
+	enabled = p_enabled and is_camera_visible()
+	if not controls_enabled:
+		_is_panning = false
 
 ## Centraliza a camera instantaneamente ou suavemente em um ponto do mundo
 func focus_on_world_position(target: Vector2, smooth: bool = false) -> void:

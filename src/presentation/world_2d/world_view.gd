@@ -18,8 +18,24 @@ var layer_terrain: Node2D
 var layer_entities: Node2D
 var camera: WorldCamera2D
 
+func _init() -> void:
+	_setup_nodes()
+
 func _ready() -> void:
 	_setup_nodes()
+
+func is_world_visible() -> bool:
+	if is_inside_tree():
+		return is_visible_in_tree()
+	return is_visible()
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_VISIBILITY_CHANGED:
+		if camera != null:
+			var is_vis = is_world_visible()
+			camera.set_controls_enabled(is_vis)
+			if is_vis and is_inside_tree():
+				camera.make_current()
 
 func _setup_nodes() -> void:
 	if layer_terrain == null:
@@ -36,13 +52,24 @@ func _setup_nodes() -> void:
 	if camera == null:
 		camera = WorldCamera2D.new()
 		camera.name = "WorldCamera2D"
+		var initial_active = is_world_visible()
+		camera.controls_enabled = initial_active
+		camera.enabled = initial_active
 		add_child(camera)
-		if is_inside_tree():
+		if is_inside_tree() and initial_active:
 			camera.make_current()
 
 func _enter_tree() -> void:
-	if camera != null:
+	if camera != null and is_world_visible():
 		camera.make_current()
+
+## Ativa ou desativa os controles interativos de zoom e pan da camera
+func set_controls_enabled(p_enabled: bool) -> void:
+	if camera != null:
+		var can_enable = p_enabled and is_world_visible()
+		camera.set_controls_enabled(can_enable)
+		if can_enable and is_inside_tree():
+			camera.make_current()
 
 func load_club_world(p_game_state: RefCounted, club_id: String = "") -> void:
 	_setup_nodes()
