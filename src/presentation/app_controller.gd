@@ -112,16 +112,34 @@ func _build_ui() -> void:
 	squad_view = SquadViewClass.new()
 	squad_view.visible = false
 	add_child(squad_view)
-	squad_view.tactics_saved.connect(func(): squad_view.visible = false)
+	squad_view.tactics_saved.connect(func():
+		squad_view.visible = false
+		_update_camera_controls()
+	)
+	squad_view.closed.connect(func():
+		squad_view.visible = false
+		_update_camera_controls()
+	)
 	
 	finances_view = FinancesViewClass.new()
 	finances_view.visible = false
 	add_child(finances_view)
-	finances_view.finances_saved.connect(func(): finances_view.visible = false)
+	finances_view.finances_saved.connect(func():
+		finances_view.visible = false
+		_update_camera_controls()
+	)
+	finances_view.closed.connect(func():
+		finances_view.visible = false
+		_update_camera_controls()
+	)
 	
 	standings_view = StandingsViewClass.new()
 	standings_view.visible = false
 	add_child(standings_view)
+	standings_view.closed.connect(func():
+		standings_view.visible = false
+		_update_camera_controls()
+	)
 	
 	stadium_modal = StadiumUpgradeModalClass.new()
 	stadium_modal.visible = false
@@ -129,6 +147,10 @@ func _build_ui() -> void:
 	stadium_modal.upgrade_started.connect(func():
 		world_view.refresh_world()
 		update_hud()
+		_update_camera_controls()
+	)
+	stadium_modal.closed.connect(func():
+		_update_camera_controls()
 	)
 	
 	match_view = MatchViewClass.new()
@@ -152,6 +174,7 @@ func show_main_menu() -> void:
 	world_view.visible = false
 	main_menu.visible = true
 	main_menu.refresh_saves()
+	_update_camera_controls()
 
 func _on_new_career_requested() -> void:
 	main_menu.visible = false
@@ -161,6 +184,7 @@ func _on_new_career_requested() -> void:
 	
 	create_club_wizard.visible = true
 	create_club_wizard.setup(game_state)
+	_update_camera_controls()
 
 func _on_continue_career_requested() -> void:
 	var loaded_state = SaveManagerClass.load_game("carreira_default")
@@ -181,6 +205,7 @@ func _start_career_session() -> void:
 	world_view.visible = true
 	world_view.load_club_world(game_state)
 	update_hud()
+	_update_camera_controls()
 	# Salva o progresso inicial
 	SaveManagerClass.save_game(game_state, "carreira_default")
 
@@ -203,21 +228,25 @@ func _on_world_facility_selected(facility_id: String) -> void:
 	var fac = game_state.get_facility(facility_id)
 	if fac != null and str(fac.type) == "STADIUM":
 		stadium_modal.open_for_stadium(game_state, facility_id)
+		_update_camera_controls()
 
 func _on_squad_button_pressed() -> void:
 	AudioServiceClass.get_instance().play_click()
 	squad_view.setup(game_state)
 	squad_view.visible = true
+	_update_camera_controls()
 
 func _on_finances_button_pressed() -> void:
 	AudioServiceClass.get_instance().play_click()
 	finances_view.setup(game_state)
 	finances_view.visible = true
+	_update_camera_controls()
 
 func _on_standings_button_pressed() -> void:
 	AudioServiceClass.get_instance().play_click()
 	standings_view.setup(game_state)
 	standings_view.visible = true
+	_update_camera_controls()
 
 func _on_save_button_pressed() -> void:
 	AudioServiceClass.get_instance().play_click()
@@ -263,11 +292,13 @@ func _on_advance_round_pressed() -> void:
 		
 		match_view.setup(sim, user_is_home)
 		match_view.visible = true
+		_update_camera_controls()
 	else:
 		# Se o clube nao tiver jogo nesta rodada, simula tudo direto
 		season_controller.simulate_full_round()
 		update_hud()
 		world_view.refresh_world()
+		_update_camera_controls()
 
 func _on_match_finished(user_match_res: Dictionary) -> void:
 	# Simula as demais partidas da rodada instantaneamente
@@ -302,6 +333,24 @@ func _on_match_finished(user_match_res: Dictionary) -> void:
 	match_view.visible = false
 	update_hud()
 	world_view.refresh_world()
+	_update_camera_controls()
 	
 	# Salva o jogo atomicamente apos a rodada
 	SaveManagerClass.save_game(game_state, "carreira_default")
+
+## Retorna se o usuario esta na tela principal da sede (estadio e campo) sem janelas modais
+func is_world_active() -> bool:
+	return world_view != null \
+		and world_view.visible \
+		and not (main_menu != null and main_menu.visible) \
+		and not (create_club_wizard != null and create_club_wizard.visible) \
+		and not (squad_view != null and squad_view.visible) \
+		and not (finances_view != null and finances_view.visible) \
+		and not (standings_view != null and standings_view.visible) \
+		and not (stadium_modal != null and stadium_modal.visible) \
+		and not (match_view != null and match_view.visible)
+
+## Atualiza a ativacao dos controles de camera (zoom e pan) de acordo com a tela ativa
+func _update_camera_controls() -> void:
+	if world_view != null:
+		world_view.set_controls_enabled(is_world_active())
