@@ -165,6 +165,16 @@ func _build_ui() -> void:
 	create_club_wizard.club_confirmed.connect(_on_career_started)
 	
 	main_menu = MainMenuClass.new()
+	main_menu.anchor_left = 0.0
+	main_menu.anchor_top = 0.0
+	main_menu.anchor_right = 1.0
+	main_menu.anchor_bottom = 1.0
+	main_menu.offset_left = 0.0
+	main_menu.offset_top = 0.0
+	main_menu.offset_right = 0.0
+	main_menu.offset_bottom = 0.0
+	main_menu.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	main_menu.grow_vertical = Control.GROW_DIRECTION_BOTH
 	add_child(main_menu)
 	main_menu.new_career_requested.connect(_on_new_career_requested)
 	main_menu.continue_career_requested.connect(_on_continue_career_requested)
