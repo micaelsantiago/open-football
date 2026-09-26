@@ -4,6 +4,8 @@ extends Node
 static var _instance: AudioService
 
 var _player: AudioStreamPlayer
+var _sound_enabled: bool = true
+var _master_volume: float = 0.7
 
 func _init() -> void:
 	if _instance == null:
@@ -18,6 +20,18 @@ static func get_instance() -> AudioService:
 	if _instance == null:
 		_instance = AudioService.new()
 	return _instance
+
+func set_sound_enabled(p_enabled: bool) -> void:
+	_sound_enabled = p_enabled
+
+func is_sound_enabled() -> bool:
+	return _sound_enabled
+
+func set_master_volume(p_volume: float) -> void:
+	_master_volume = clampf(p_volume, 0.0, 1.0)
+
+func get_master_volume() -> float:
+	return _master_volume
 
 ## Toca apito de arbitro
 func play_whistle() -> void:
@@ -36,8 +50,9 @@ func play_upgrade() -> void:
 	_play_procedural_tone(1760.0, 0.35, 0.7)
 
 func _play_procedural_tone(freq: float, duration: float, volume: float = 0.5) -> void:
-	if _player == null:
+	if not _sound_enabled or _player == null:
 		return
+	var final_volume = volume * _master_volume
 	var sample_rate := 22050
 	var total_frames := int(sample_rate * duration)
 	var stream := AudioStreamWAV.new()
@@ -52,7 +67,7 @@ func _play_procedural_tone(freq: float, duration: float, volume: float = 0.5) ->
 		var t = float(i) / float(sample_rate)
 		# Envoltoria linear simples de ataque e decaimento
 		var env = 1.0 - (float(i) / float(total_frames))
-		var sample = sin(2.0 * PI * freq * t) * env * volume
+		var sample = sin(2.0 * PI * freq * t) * env * final_volume
 		# Converte para 8-bit unsigned (0 a 255, 128 = silencio)
 		data[i] = clampi(int(128.0 + sample * 127.0), 0, 255)
 		
