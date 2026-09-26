@@ -13,8 +13,9 @@
     "accent": "#F2B705"
   },
   "facilities": {
-    "stadium_id": "facility-estadio-aurora-fc",
-    "training_center_id": "facility-ct-aurora-fc"
+    "stadium_id": "facility-estadio-aurora",
+    "training_center_id": "facility-ct-aurora",
+    "headquarters_id": "facility-sede-aurora"
   },
   "finances": {
     "balance": 250000,
