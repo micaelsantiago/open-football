@@ -173,10 +173,22 @@ static func test_create_club_wizard() -> bool:
 	assert(chosen["id"] == "club-uniao-fc", "Caminho 1: Clube selecionado incorreto: %s" % chosen["id"])
 	assert(state.user_club_id == "club-uniao-fc", "GameState user_club_id nao atualizado")
 	
+	# Teste Live Preview e Alternância de Modo
+	assert(wizard._preview_shield != null, "Escudo dinâmico de Live Preview deveria existir")
+	assert(wizard._preview_kit != null, "Uniforme dinâmico de Live Preview deveria existir")
+	assert(wizard._preview_stadium != null, "Estádio dinâmico de Live Preview deveria existir")
+	
+	wizard._switch_mode(1) # Ativa modo customizado
+	assert(wizard._custom_panel.visible, "Painel customizado deveria estar visivel")
+	assert(not wizard._traditional_panel.visible, "Painel tradicional deveria estar oculto")
+	
 	# Teste Caminho 2: Fundar novo clube customizado
 	wizard._name_edit.text = "Serra Dourada FC"
 	wizard._short_name_edit.text = "SDF"
 	wizard._stadium_name_edit.text = "Arena do Sol"
+	wizard._on_custom_field_changed()
+	assert(wizard._preview_short_name == "SDF", "Sigla do Live Preview deveria ser SDF")
+	
 	wizard._on_confirm_new_pressed()
 	
 	var my_club = state.get_user_club()
@@ -186,6 +198,12 @@ static func test_create_club_wizard() -> bool:
 	var my_stadium = state.get_facility(my_club.facilities["stadium_id"])
 	assert(my_stadium.name == "Arena do Sol", "Caminho 2: Nome do estádio customizado incorreto")
 	
+	# Teste sinal back_requested
+	var back_hit := { "val": false }
+	wizard.back_requested.connect(func(): back_hit["val"] = true)
+	wizard.back_requested.emit()
+	assert(back_hit["val"], "Sinal back_requested deveria ter sido emitido")
+	
 	wizard.queue_free()
-	print("[PASS] test_create_club_wizard: Assistente de criacao de clube (Dois Caminhos) validado com sucesso")
+	print("[PASS] test_create_club_wizard: Assistente de criacao de clube (Dois Caminhos + Live Preview) validado com sucesso")
 	return true
