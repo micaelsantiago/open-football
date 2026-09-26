@@ -128,8 +128,19 @@ static func test_main_menu_interactions() -> bool:
 	menu._on_continue_pressed()
 	assert(signals_hit["cont"], "Sinal continue_career_requested nao capturado")
 	
+	# Testa abertura de modais
+	assert(menu._options_modal != null, "_options_modal deveria estar instanciado")
+	assert(not menu._options_modal.visible, "Options modal deveria iniciar oculto")
+	menu._on_options_pressed()
+	assert(menu._options_modal.visible, "Options modal deveria ficar visivel apos clique")
+	
+	assert(menu._credits_modal != null, "_credits_modal deveria estar instanciado")
+	assert(not menu._credits_modal.visible, "Credits modal deveria iniciar oculto")
+	menu._on_credits_pressed()
+	assert(menu._credits_modal.visible, "Credits modal deveria ficar visivel apos clique")
+	
 	menu.queue_free()
-	print("[PASS] test_main_menu_interactions: Menu Principal com Nova Carreira, Continuar e Sair validado")
+	print("[PASS] test_main_menu_interactions: Menu Principal com Nova Carreira, Continuar, Opcoes e Creditos validado")
 	return true
 
 static func test_app_controller_orchestration() -> bool:
